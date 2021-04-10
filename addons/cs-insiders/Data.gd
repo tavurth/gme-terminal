@@ -60,6 +60,9 @@ func extract_data(data: Dictionary):
 	return to_return
 
 func handle_error(data):
+	self.config.erase("valid_api_key")
+	Utils.File.write_json("user://config.json", self.config)
+	
 	get_parent().get_node("Scene/Loader").hide()
 	get_parent().get_node("Scene/Error").show()
 
@@ -67,7 +70,6 @@ func handle_error(data):
 		return
 
 	get_parent().get_node("Scene/Error/Label").set_text(data.Error.Message)
-
 
 func validate_api_key():
 	if "valid_api_key" in self.config: return

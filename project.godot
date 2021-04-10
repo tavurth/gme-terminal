@@ -21,7 +21,7 @@ run/low_processor_mode=true
 run/low_processor_mode_sleep_usec=40000
 boot_splash/image="res://resource/splash.png"
 boot_splash/bg_color=Color( 0, 0, 0, 1 )
-config/icon="res://resource/icon.png"
+config/icon="res://icon.png"
 config/macos_native_icon="res://resource/icon.icns"
 config/windows_native_icon="res://icon.ico"
 
