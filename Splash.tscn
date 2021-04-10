@@ -71,6 +71,7 @@ margin_bottom = 520.0
 margin_right = 358.0
 margin_bottom = 35.0
 size_flags_horizontal = 3
+clear_button_enabled = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
