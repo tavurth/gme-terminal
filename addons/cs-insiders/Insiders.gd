@@ -13,6 +13,11 @@ func _ready():
 	Data.connect("loaded", Scene, "_on_loaded")
 	Data.connect("loading", Scene, "_on_loading")
 
+	Scene.connect("instrument_set", self, "_on_instrument")
+
+func _on_instrument(instrument: String):
+	Data.fetch(instrument, true)
+
 func set_instrument(new_instrument: String):
 	self.instrument = new_instrument
 	Data.fetch(new_instrument)

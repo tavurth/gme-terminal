@@ -1,10 +1,13 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://resource/default_theme.tres" type="Theme" id=1]
 [ext_resource path="res://addons/cs-insiders/Scene.gd" type="Script" id=2]
 [ext_resource path="res://addons/cs-insiders/sort_group.tres" type="ButtonGroup" id=3]
 [ext_resource path="res://addons/cs-insiders/Loader/Loader.tscn" type="PackedScene" id=4]
 [ext_resource path="res://addons/cs-insiders/Loader/Error.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Picker/Picker.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Picker/open.svg" type="Texture" id=7]
+[ext_resource path="res://Picker/open-hover.svg" type="Texture" id=8]
 
 [node name="Scene" type="Control"]
 anchor_right = 1.0
@@ -124,3 +127,22 @@ visible = false
 
 [node name="Error" parent="." instance=ExtResource( 5 )]
 visible = false
+
+[node name="InstrumentPicker" parent="." instance=ExtResource( 6 )]
+
+[node name="TextureButton" type="TextureButton" parent="."]
+anchor_left = 0.965566
+anchor_top = 0.005
+anchor_right = 0.995117
+anchor_bottom = 0.0500853
+margin_left = 0.260681
+margin_bottom = -0.0511665
+texture_normal = ExtResource( 7 )
+texture_pressed = ExtResource( 8 )
+texture_hover = ExtResource( 8 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": true
+}
+[connection signal="instrument_selected" from="InstrumentPicker" to="." method="set_instrument"]
+[connection signal="pressed" from="TextureButton" to="InstrumentPicker" method="show"]

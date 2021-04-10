@@ -1,5 +1,7 @@
 extends Control
 
+signal instrument_set(instrument)
+
 var Institution = preload("Institution.tscn")
 
 var Buttons = preload("sort_group.tres")
@@ -103,3 +105,7 @@ func _ready():
 
 	for button in Buttons.get_buttons():
 		button.connect("toggled", self, "_on_button_toggled")
+
+
+func set_instrument(instrument):
+	self.emit_signal("instrument_set", instrument)

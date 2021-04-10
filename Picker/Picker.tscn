@@ -1,0 +1,116 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Picker/Picker.gd" type="Script" id=1]
+[ext_resource path="res://Picker/InstrumentList.gd" type="Script" id=2]
+
+[sub_resource type="Shader" id=1]
+code = "shader_type canvas_item;
+
+void fragment() {
+	COLOR = texture(TEXTURE, vec2(1.-UV.y, UV.x));
+}"
+
+[sub_resource type="ShaderMaterial" id=2]
+shader = SubResource( 1 )
+
+[sub_resource type="Gradient" id=3]
+offsets = PoolRealArray( 0, 0.339152, 1 )
+colors = PoolColorArray( 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0 )
+
+[sub_resource type="GradientTexture" id=4]
+gradient = SubResource( 3 )
+width = 4
+
+[node name="InstrumentPicker" type="VBoxContainer"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ItemListContainer" type="HBoxContainer" parent="."]
+margin_right = 1024.0
+margin_bottom = 512.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Panel" type="Panel" parent="ItemListContainer"]
+margin_right = 510.0
+margin_bottom = 512.0
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="MarginContainer" type="MarginContainer" parent="ItemListContainer/Panel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_constants/margin_right = 20
+custom_constants/margin_top = 20
+custom_constants/margin_left = 40
+custom_constants/margin_bottom = 20
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ItemListContainer/Panel/MarginContainer"]
+margin_left = 40.0
+margin_top = 20.0
+margin_right = 490.0
+margin_bottom = 492.0
+
+[node name="LineEdit" type="LineEdit" parent="ItemListContainer/Panel/MarginContainer/VBoxContainer"]
+margin_right = 450.0
+margin_bottom = 24.0
+mouse_filter = 1
+clear_button_enabled = true
+caret_blink = true
+caret_blink_speed = 0.4
+
+[node name="InstrumentList" type="ItemList" parent="ItemListContainer/Panel/MarginContainer/VBoxContainer"]
+margin_top = 28.0
+margin_right = 450.0
+margin_bottom = 472.0
+rect_min_size = Vector2( 0, 40 )
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource( 2 )
+
+[node name="FadeOut" type="TextureRect" parent="ItemListContainer/Panel/MarginContainer"]
+material = SubResource( 2 )
+margin_left = 40.0
+margin_top = 20.0
+margin_right = 490.0
+margin_bottom = 492.0
+grow_horizontal = 2
+grow_vertical = 0
+rect_min_size = Vector2( 0, 40 )
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = SubResource( 4 )
+expand = true
+flip_h = true
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="OutsidePicker" type="Control" parent="ItemListContainer"]
+margin_left = 514.0
+margin_right = 1024.0
+margin_bottom = 512.0
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="text_changed" from="ItemListContainer/Panel/MarginContainer/VBoxContainer/LineEdit" to="ItemListContainer/Panel/MarginContainer/VBoxContainer/InstrumentList" method="_on_LineEdit_text_changed"]
+[connection signal="item_activated" from="ItemListContainer/Panel/MarginContainer/VBoxContainer/InstrumentList" to="ItemListContainer/Panel/MarginContainer/VBoxContainer/InstrumentList" method="select_index"]
+[connection signal="item_selected" from="ItemListContainer/Panel/MarginContainer/VBoxContainer/InstrumentList" to="ItemListContainer/Panel/MarginContainer/VBoxContainer/InstrumentList" method="select_index"]
+[connection signal="gui_input" from="ItemListContainer/OutsidePicker" to="." method="_on_OutsidePicker_gui_input"]
