@@ -29,7 +29,7 @@ func extract_item(item: Array):
 			"date": item[23].value,
 			"count": item[24].value,
 			"change": item[25].value,
-			"pct_change": item[26].value,
+			"pct_change": round(item[26].value * 1000) / 10,
 		},
 		"value": {
 			"market": item[27].value,

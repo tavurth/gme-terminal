@@ -13,17 +13,28 @@ static func format(number):
 			res += ","
 		res += string[i]
 
-	return res.replace("-,", "-")
+	res = res.replace("-,", "-")
+	res = res.replace(",.", ".")
+	res = res.replace(".,", ".")
+
+	return res
+
+func format_with_color(node: Node, amount: float, amount_str = null):
+	if not amount_str:
+		amount_str = format(amount)
+
+	node.set_text(amount_str)
+
+	if amount > 0:
+		node.set_modulate(ColorUp)
+
+	elif amount < 0:
+		node.set_modulate(ColorDw)
 
 func setup(item: Dictionary):
 	$Holder.set_text(item.owner.name)
 	$Shares.set_text(format(item.shares.count))
 	$FileDate.set_text(str(item.date.current))
 
-	$Change.set_text(format(item.shares.change))
-	if item.shares.change > 0:
-		$Change.set_modulate(ColorUp)
-
-	elif item.shares.change < 0:
-		$Change.set_modulate(ColorDw)
-
+	self.format_with_color($Change, item.shares.change)
+	self.format_with_color($ChangePct, item.shares.pct_change, "%.1f" % item.shares.pct_change)

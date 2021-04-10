@@ -32,6 +32,12 @@ class DataSort:
 	static func by_change_desc(a, b):
 		return a.shares.change > b.shares.change
 
+	static func by_percent_asc(a, b):
+		return a.shares.pct_change < b.shares.pct_change
+
+	static func by_percent_desc(a, b):
+		return a.shares.pct_change > b.shares.pct_change
+
 	static func by_date_asc(a, b):
 		return date(a.date.current) < date(b.date.current)
 
@@ -93,6 +99,7 @@ func _ready():
 	$MarginContainer/Container/Header/Shares.set_meta("sort", "by_shares")
 	$MarginContainer/Container/Header/Change.set_meta("sort", "by_change")
 	$MarginContainer/Container/Header/FileDate.set_meta("sort", "by_date")
+	$MarginContainer/Container/Header/ChangePct.set_meta("sort", "by_percent")
 
 	for button in Buttons.get_buttons():
 		button.connect("toggled", self, "_on_button_toggled")
