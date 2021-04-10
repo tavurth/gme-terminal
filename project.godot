@@ -15,13 +15,15 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Institutional Holdings (GME)"
+config/name="GME Ownership"
 run/main_scene="res://Splash.tscn"
 run/low_processor_mode=true
 run/low_processor_mode_sleep_usec=40000
 boot_splash/image="res://resource/splash.png"
 boot_splash/bg_color=Color( 0, 0, 0, 1 )
 config/icon="res://resource/icon.png"
+config/macos_native_icon="res://resource/icon.icns"
+config/windows_native_icon="res://icon.ico"
 
 [autoload]
 
@@ -32,6 +34,14 @@ Cache="*res://addons/cs-cache/Cache.gd"
 [editor_plugins]
 
 enabled=PoolStringArray( "cs-insiders" )
+
+[input]
+
+ui_reload={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":true,"meta":false,"command":false,"pressed":false,"scancode":82,"unicode":0,"echo":false,"script":null)
+ ]
+}
 
 [rendering]
 

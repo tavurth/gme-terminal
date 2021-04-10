@@ -5,6 +5,7 @@ signal loading()
 signal loaded(data)
 
 var config = null
+var instrument
 const request_url = "https://datafied.api.edgar-online.com/v2/ownerships/currentownerholdings?appkey={api_key}&filter=ticker%20eq%20%22{instrument}%22&limit=999"
 
 func cache_name(instrument):
@@ -74,14 +75,18 @@ func validate_api_key():
 	self.config.valid_api_key = true
 	Utils.File.write_json("user://config.json", self.config)
 
-func fetch(instrument):
+func fetch(instrument: String, force = false):
 	yield(get_tree(), "idle_frame")
+	self.instrument = instrument
+
+	get_parent().get_node("Scene/Loader").show()
+	get_parent().get_node("Scene/Error").hide()
 
 	self.emit_signal("loading")
 
 	var data
 
-	if false and Cache.has(cache_name(instrument)):
+	if force == false and Cache.has(cache_name(instrument)):
 		data = Cache.get(self.cache_name(instrument))
 
 	else:
@@ -110,3 +115,9 @@ func fetch(instrument):
 
 func _ready():
 	self.config = Utils.File.load_json("user://config.json")
+
+func _input(event: InputEvent):
+	if not event is InputEventKey: return
+
+	if event.is_action_pressed("ui_reload"):
+		self.fetch(self.instrument, true)
