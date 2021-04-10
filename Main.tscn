@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://addons/cs-insiders/Insiders.gd" type="Script" id=1]
+[ext_resource path="res://Main.gd" type="Script" id=2]
+[ext_resource path="res://resource/default_theme.tres" type="Theme" id=3]
+
+[node name="Main" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 3 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+instrument = "GME"
+
+[node name="cs-Insiders" type="CanvasLayer" parent="."]
+script = ExtResource( 1 )
+[connection signal="instrument_set" from="." to="cs-Insiders" method="set_instrument"]

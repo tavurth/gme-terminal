@@ -1,0 +1,39 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[  ]
+_global_script_class_icons={
+
+}
+
+[application]
+
+config/name="Institutional Holdings (GME)"
+run/main_scene="res://Splash.tscn"
+run/low_processor_mode=true
+run/low_processor_mode_sleep_usec=40000
+boot_splash/image="res://resource/splash.png"
+boot_splash/bg_color=Color( 0, 0, 0, 1 )
+config/icon="res://resource/icon.png"
+
+[autoload]
+
+Errors="*res://addons/cs-utils/Singletons/Errors.gd"
+Utils="*res://addons/cs-utils/Utils.gd"
+Cache="*res://addons/cs-cache/Cache.gd"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "cs-insiders" )
+
+[rendering]
+
+environment/default_clear_color=Color( 0, 0, 0, 1 )
+environment/default_environment="res://resource/default_env.tres"

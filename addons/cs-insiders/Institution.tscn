@@ -1,0 +1,60 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://addons/cs-insiders/Institution.gd" type="Script" id=1]
+
+[node name="Institution" type="HBoxContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Holder" type="Label" parent="."]
+margin_top = 249.0
+margin_right = 418.0
+margin_bottom = 263.0
+size_flags_horizontal = 3
+size_flags_vertical = 6
+size_flags_stretch_ratio = 2.2
+text = "Holder"
+clip_text = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Shares" type="Label" parent="."]
+margin_left = 422.0
+margin_top = 249.0
+margin_right = 612.0
+margin_bottom = 263.0
+size_flags_horizontal = 3
+size_flags_vertical = 6
+text = "Shares"
+align = 2
+
+[node name="Change" type="Label" parent="."]
+margin_left = 616.0
+margin_top = 249.0
+margin_right = 806.0
+margin_bottom = 263.0
+size_flags_horizontal = 3
+size_flags_vertical = 6
+text = "Shares"
+align = 2
+
+[node name="FileDate" type="Label" parent="."]
+margin_left = 810.0
+margin_top = 249.0
+margin_right = 1000.0
+margin_bottom = 263.0
+size_flags_horizontal = 3
+size_flags_vertical = 6
+text = "Shares"
+align = 2
+
+[node name="Padding" type="Control" parent="."]
+margin_left = 1004.0
+margin_right = 1024.0
+margin_bottom = 512.0
+rect_min_size = Vector2( 20, 0 )
