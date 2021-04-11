@@ -16,24 +16,39 @@ Windows, Mac & Linux binaries available below:
 
 [[https://tavurth.itch.io/gme-institutional-ownership][itch.io link]] to the downloads
 
+* Features
+
+- Sorting (click on the headers)
+- Multiple data sources available
+  - Edgar API
+  - IEX Cloud
+
+** Shortcuts
+
+- Instrument picker (press ~i~)
+- Reload the data at any time (press ~ctrl + r~)
+
 * Setup
 
-To get your API key here are the steps:
+There are different data sources available, and you'll be presented with a choice when you first start the app.
 
-1. https://developer.edgar-online.com/member/account
-2. Click "Request a key" at top right
-3. Fill out the sign-up form
-4. Activate your account
-5. https://developer.edgar-online.com/member/login
-6. Login and copy the API key from "My account" section
+Both options require that you sign up for a service, Edgar is free but the data may be delayed a few months, wheras IEX Cloud should be up-to-date but costs $9 per month.
+
+Please make sure you have allowed the app access through your firewall.
 
 * Development setup
 
 1. Download [[http://godotengine.org/][Godot]]
 2. Import the project from the first window which appears
-3. Press the play button at the top right
+3. Press the play button at the top
 
-* Features
 
-- Instrument picker (press ~i~)
-- Sorting (click on the headers)
+* Contributing
+
+Contributions are very welcome! Together perhaps we can make this grow into something beautiful 🙂
+
+Please keep your ~Nodes~ as independant as possible, they should connect to other nodes with [[https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html][Godot Signals]] wherever possible as this keeps refactoring of different modules easy.
+
+Please keep keyboard shortcuts in the [[https://docs.godotengine.org/en/stable/classes/class_inputmap.html][Godot input map]].
+
+Please squash all commits into a single commit so that we can read without much difficulty.
