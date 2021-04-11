@@ -1,6 +1,6 @@
-extends CanvasLayer
+extends Control
 
-var Data = preload("Data.tscn").instance()
+var Data = preload("Data/Data.tscn").instance()
 var Scene = preload("Scene.tscn").instance()
 
 var instrument

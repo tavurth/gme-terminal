@@ -72,9 +72,9 @@ func format_with_color(node: Node, amount: float, amount_str = null):
 		node.set_text("0")
 
 func setup(item: Dictionary):
-	$Holder.set_text(item.owner.name)
-	$Shares.set_text(format_int(item.shares.count))
-	$FileDate.set_text(str(item.date.current))
+	$Holder.set_text(item.holder)
+	$Shares.set_text(format_int(item.shares))
+	$FileDate.set_text(str(item.date))
 
-	self.format_with_color($Change, item.shares.change)
-	self.format_with_color($ChangePct, item.shares.pct_change, format_float(item.shares.pct_change))
+	self.format_with_color($Change, item.shares_change)
+	self.format_with_color($ChangePct, item.shares_pct_change, format_float(item.shares_pct_change))

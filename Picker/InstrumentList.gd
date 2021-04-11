@@ -1,7 +1,5 @@
 extends ItemList
 
-signal instrument_selected(instrument)
-
 var search = ""
 var selected = null
 

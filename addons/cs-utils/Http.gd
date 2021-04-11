@@ -80,6 +80,11 @@ func fetch(url, headers = default_headers(), data = null, type = null):
 	var body = _result[3]
 	var result = parse_json(body.get_string_from_utf8())
 
+	if result == null and body.get_string_from_utf8():
+		return {
+			"error": body.get_string_from_utf8()
+		}
+
 	if not result:
 		return network_error(ERR_UNAVAILABLE, "no body found", url)
 

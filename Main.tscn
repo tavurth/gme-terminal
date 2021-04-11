@@ -1,8 +1,13 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=9 format=2]
 
-[ext_resource path="res://addons/cs-insiders/Insiders.gd" type="Script" id=1]
+[ext_resource path="res://addons/cs-institutions/Institutions.gd" type="Script" id=1]
 [ext_resource path="res://Main.gd" type="Script" id=2]
 [ext_resource path="res://resource/default_theme.tres" type="Theme" id=3]
+[ext_resource path="res://Picker/Picker.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Picker/open.svg" type="Texture" id=5]
+[ext_resource path="res://resource/back-hover.svg" type="Texture" id=6]
+[ext_resource path="res://Picker/open-hover.svg" type="Texture" id=7]
+[ext_resource path="res://resource/back.svg" type="Texture" id=8]
 
 [node name="Main" type="Control"]
 anchor_right = 1.0
@@ -12,8 +17,84 @@ script = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-instrument = "GME"
 
-[node name="cs-Insiders" type="CanvasLayer" parent="."]
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HeaderButtons" type="MarginContainer" parent="VBoxContainer"]
+margin_right = 1024.0
+margin_bottom = 50.0
+custom_constants/margin_right = 20
+custom_constants/margin_top = 10
+custom_constants/margin_left = 20
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/HeaderButtons"]
+margin_left = 20.0
+margin_top = 10.0
+margin_right = 1004.0
+margin_bottom = 50.0
+rect_min_size = Vector2( 0, 40 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BackButton" type="TextureButton" parent="VBoxContainer/HeaderButtons/HBoxContainer"]
+margin_right = 40.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 40, 0 )
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 6 )
+texture_hover = ExtResource( 6 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="PickerButton" type="TextureButton" parent="VBoxContainer/HeaderButtons/HBoxContainer"]
+margin_left = 44.0
+margin_right = 84.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 40, 0 )
+texture_normal = ExtResource( 5 )
+texture_pressed = ExtResource( 7 )
+texture_hover = ExtResource( 7 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="CenterPadding" type="Control" parent="VBoxContainer/HeaderButtons/HBoxContainer"]
+margin_left = 88.0
+margin_right = 944.0
+margin_bottom = 40.0
+size_flags_horizontal = 3
+
+[node name="InstrumentName" type="Label" parent="VBoxContainer/HeaderButtons/HBoxContainer"]
+margin_left = 948.0
+margin_top = 7.0
+margin_right = 984.0
+margin_bottom = 32.0
+text = "GME"
+
+[node name="cs-institutions" type="Control" parent="VBoxContainer"]
+margin_top = 54.0
+margin_right = 1024.0
+margin_bottom = 600.0
+size_flags_vertical = 3
 script = ExtResource( 1 )
-[connection signal="instrument_set" from="." to="cs-Insiders" method="set_instrument"]
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="InstrumentPicker" parent="." instance=ExtResource( 4 )]
+[connection signal="pressed" from="VBoxContainer/HeaderButtons/HBoxContainer/BackButton" to="." method="_on_BackButton_pressed"]
+[connection signal="pressed" from="VBoxContainer/HeaderButtons/HBoxContainer/PickerButton" to="InstrumentPicker" method="show"]
+[connection signal="instrument_selected" from="InstrumentPicker" to="VBoxContainer/cs-institutions" method="set_instrument"]
+[connection signal="instrument_selected" from="InstrumentPicker" to="." method="set_instrument"]

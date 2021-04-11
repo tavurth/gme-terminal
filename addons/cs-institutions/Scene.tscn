@@ -1,0 +1,123 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://resource/default_theme.tres" type="Theme" id=1]
+[ext_resource path="res://addons/cs-institutions/Scene.gd" type="Script" id=2]
+[ext_resource path="res://addons/cs-institutions/sort_group.tres" type="ButtonGroup" id=3]
+[ext_resource path="res://addons/cs-institutions/Loader/Loader.tscn" type="PackedScene" id=4]
+[ext_resource path="res://addons/cs-institutions/Loader/Error.tscn" type="PackedScene" id=5]
+
+[node name="Scene" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource( 1 )
+script = ExtResource( 2 )
+
+[node name="TableContent" type="MarginContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_constants/margin_right = 20
+custom_constants/margin_left = 20
+custom_constants/margin_bottom = 20
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Container" type="VBoxContainer" parent="TableContent"]
+margin_left = 20.0
+margin_right = 1004.0
+margin_bottom = 580.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Header" type="HBoxContainer" parent="TableContent/Container"]
+margin_right = 984.0
+margin_bottom = 31.0
+rect_min_size = Vector2( 0, 30 )
+
+[node name="Company" type="Label" parent="TableContent/Container/Header"]
+margin_top = 3.0
+margin_right = 331.0
+margin_bottom = 28.0
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 2.2
+text = "Holder Name"
+
+[node name="Shares" type="Button" parent="TableContent/Container/Header"]
+margin_left = 335.0
+margin_right = 486.0
+margin_bottom = 31.0
+size_flags_horizontal = 3
+toggle_mode = true
+pressed = true
+group = ExtResource( 3 )
+text = "Position ▼"
+flat = true
+align = 2
+
+[node name="Change" type="Button" parent="TableContent/Container/Header"]
+margin_left = 490.0
+margin_right = 640.0
+margin_bottom = 31.0
+size_flags_horizontal = 3
+toggle_mode = true
+group = ExtResource( 3 )
+text = "Change"
+flat = true
+align = 2
+
+[node name="ChangePct" type="Button" parent="TableContent/Container/Header"]
+margin_left = 644.0
+margin_right = 795.0
+margin_bottom = 31.0
+size_flags_horizontal = 3
+toggle_mode = true
+group = ExtResource( 3 )
+text = "Change %"
+flat = true
+align = 2
+
+[node name="FileDate" type="Button" parent="TableContent/Container/Header"]
+margin_left = 799.0
+margin_right = 950.0
+margin_bottom = 31.0
+size_flags_horizontal = 3
+toggle_mode = true
+group = ExtResource( 3 )
+text = "File Dte"
+flat = true
+align = 2
+
+[node name="Padding" type="Control" parent="TableContent/Container/Header"]
+margin_left = 954.0
+margin_right = 984.0
+margin_bottom = 31.0
+rect_min_size = Vector2( 30, 0 )
+
+[node name="HSeparator" type="HSeparator" parent="TableContent/Container"]
+margin_top = 35.0
+margin_right = 984.0
+margin_bottom = 39.0
+
+[node name="Scroller" type="ScrollContainer" parent="TableContent/Container"]
+margin_top = 43.0
+margin_right = 984.0
+margin_bottom = 580.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Table" type="VBoxContainer" parent="TableContent/Container/Scroller"]
+margin_right = 984.0
+margin_bottom = 537.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Loader" parent="." instance=ExtResource( 4 )]
+visible = false
+
+[node name="Error" parent="." instance=ExtResource( 5 )]
+visible = false

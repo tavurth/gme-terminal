@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/help.png-716ece85ae2cb2b6f66b8d27f0d178d4.stex"
+path="res://.import/icon.png-64e531b35f83e0ee33fad7e2bd7f7f70.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resource/help.png"
-dest_files=[ "res://.import/help.png-716ece85ae2cb2b6f66b8d27f0d178d4.stex" ]
+source_file="res://addons/cs-institutions/icon.png"
+dest_files=[ "res://.import/icon.png-64e531b35f83e0ee33fad7e2bd7f7f70.stex" ]
 
 [params]
 

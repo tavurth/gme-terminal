@@ -5,8 +5,11 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 
 [node name="Label" type="Label" parent="."]
-margin_left = 412.0
+margin_left = 111.0
 margin_top = 293.0
-margin_right = 611.0
+margin_right = 911.0
 margin_bottom = 307.0
+rect_min_size = Vector2( 800, 0 )
 text = "There was an error loading data"
+align = 1
+autowrap = true
