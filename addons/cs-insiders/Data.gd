@@ -11,37 +11,88 @@ const request_url = "https://datafied.api.edgar-online.com/v2/ownerships/current
 func cache_name(instrument):
 	return 'INSIDERS_%s' % instrument
 
+var DATE_CURRENT
+var DATE_PREVIOUS
+var OWNER_NAME
+var OWNER_CITY
+var OWNER_STATE
+var OWNER_ZIP
+var OWNER_COUNTRY
+var SHARES_PRICE
+var SHARES_DATE
+var SHARES_COUNT
+var SHARES_CHANGE
+var SHARES_PCT_CHANGE
+var VALUE_MARKET
+var VALUE_CHANGE
+var VALUE_PORTFOLIO_PCT
+var COMPANY_TICKER
+var COMPANY_NAME
+var COMPANY_EXCHANGE
+
 func extract_item(item: Array):
+	prints(SHARES_PCT_CHANGE, item[SHARES_PCT_CHANGE].value)
 	return {
 		"date": {
-			"current": item[3].value,
-			"previous": item[4].value,
+			"current": item[DATE_CURRENT].value,
+			"previous": item[DATE_PREVIOUS].value,
 		},
 		"owner": {
-			"name": item[5].value,
-			"city": item[13].value,
-			"state": item[14].value,
-			"zip": item[15].value,
-			"country": item[16].value,
+			"name": item[OWNER_NAME].value,
+			"city": item[OWNER_CITY].value,
+			"state": item[OWNER_STATE].value,
+			"zip": item[OWNER_ZIP].value,
+			"country": item[OWNER_COUNTRY].value,
 		},
 		"shares": {
-			"price": item[22].value,
-			"date": item[23].value,
-			"count": item[24].value,
-			"change": item[25].value,
-			"pct_change": round(item[26].value * 1000) / 10,
+			"price": item[SHARES_PRICE].value,
+			"date": item[SHARES_DATE].value,
+			"count": item[SHARES_COUNT].value,
+			"change": item[SHARES_CHANGE].value,
+			"pct_change": round(item[SHARES_PCT_CHANGE].value * 1000) / 10,
 		},
 		"value": {
-			"market": item[27].value,
-			"change": item[28].value,
-			"portfolio_pct": item[29].value,
+			"market": item[VALUE_MARKET].value,
+			"change": item[VALUE_CHANGE].value,
+			"portfolio_pct": item[VALUE_PORTFOLIO_PCT].value,
 		},
 		"company": {
-			"ticker": item[7].value,
-			"name": item[8].value,
-			"exchange": item[11].value
+			"ticker": item[COMPANY_TICKER].value,
+			"name": item[COMPANY_NAME].value,
+			"exchange": item[COMPANY_EXCHANGE].value
 		},
 	}
+
+func find_index(name: String, rows: Array):
+	var index = 0
+
+	for item in rows:
+		if item.field == name:
+			return index
+
+		index += 1
+
+	return -1
+
+func compute_indexes(row: Array):
+	DATE_CURRENT = find_index("currentreportdate", row)
+	DATE_PREVIOUS = find_index("priorreportdate", row)
+	OWNER_NAME = find_index("ownername", row)
+	OWNER_CITY = find_index("city", row)
+	OWNER_STATE = find_index("ownername", row)
+	OWNER_ZIP = find_index("zip", row)
+	OWNER_COUNTRY = find_index("country", row)
+	SHARES_PRICE = find_index("price", row)
+	SHARES_DATE = find_index("pricedate", row)
+	SHARES_COUNT = find_index("sharesheld", row)
+	SHARES_CHANGE = find_index("sharesheldchange", row)
+	SHARES_PCT_CHANGE = find_index("sharesheldpercentchange", row)
+	VALUE_MARKET = find_index("marketvalue", row)
+	VALUE_CHANGE = find_index("marketvaluechange", row)
+	VALUE_PORTFOLIO_PCT = find_index("portfoliopercent", row)
+	COMPANY_TICKER = find_index("ticker", row)
+	COMPANY_NAME = find_index("companyname", row)
+	COMPANY_EXCHANGE = find_index("exchange", row)
 
 func extract_data(data: Dictionary):
 	if not "result" in data:
@@ -49,10 +100,15 @@ func extract_data(data: Dictionary):
 		return
 
 	data = data.result
+	if not len(data.rows):
+		self.emit_signal("failed")
+		return
 
 	# print(JSON.print(data, "  "))
 	var total = data.totalrows
 	var to_return = []
+
+	self.compute_indexes(data.rows[0].values)
 
 	for row in data.rows:
 		to_return.append(self.extract_item(row.values))
@@ -93,7 +149,7 @@ func fetch(instrument: String, force = false):
 
 	else:
 		data = $HttpFetch.fetch(request_url.format({
-			"instrument": "GME",
+			"instrument": instrument,
 			"api_key": self.config.api_key
 		}))
 
