@@ -1,12 +1,18 @@
 #+TITLE: GME Terminal
 
+#+ATTR_HTML: :style margin-left: auto; margin-right: auto;
+[[./resource/screenshot1.png]]
+
+#+ATTR_HTML: :style margin-left: auto; margin-right: auto;
+[[./resource/screenshot2.png]]
+
 * Overview
 
 I built this because I saw people posting their Bloomberg terminals.
 
-The data is sourced from the SEC directly, and is free but requires an API key (setup is easy).
+The data is sourced from the [[https://developer.edgar-online.com/live][Edgar]], and is free but requires an API key (setup is easy).
 
-Windows & Mac binaries available below:
+Windows, Mac & Linux binaries available below:
 
 [[https://tavurth.itch.io/gme-institutional-ownership][itch.io link]] to the downloads
 
