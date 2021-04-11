@@ -31,7 +31,6 @@ var COMPANY_NAME
 var COMPANY_EXCHANGE
 
 func extract_item(item: Array):
-	prints(SHARES_PCT_CHANGE, item[SHARES_PCT_CHANGE].value)
 	return {
 		"date": {
 			"current": item[DATE_CURRENT].value,
@@ -75,6 +74,12 @@ func find_index(name: String, rows: Array):
 	return -1
 
 func compute_indexes(row: Array):
+	"""
+	My data source seems to get mixed up sometimes
+	This was a quick fix until we can find a better data source
+
+	FInds the correct index for each key and saves it above for item extraction
+	"""
 	DATE_CURRENT = find_index("currentreportdate", row)
 	DATE_PREVIOUS = find_index("priorreportdate", row)
 	OWNER_NAME = find_index("ownername", row)
