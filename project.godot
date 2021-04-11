@@ -31,9 +31,13 @@ Errors="*res://addons/cs-utils/Singletons/Errors.gd"
 Utils="*res://addons/cs-utils/Utils.gd"
 Cache="*res://addons/cs-cache/Cache.gd"
 
+[debug]
+
+gdscript/warnings/unused_signal=false
+
 [editor_plugins]
 
-enabled=PoolStringArray( "cs-insiders" )
+enabled=PoolStringArray( "cs-cache", "cs-institutions", "cs-utils" )
 
 [input]
 
