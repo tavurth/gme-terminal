@@ -1,5 +1,11 @@
 #+TITLE: GME Terminal
 
+#+ATTR_HTML: :style margin-left: auto; margin-right: auto;
+[[./resource/screenshot1.png]]
+
+#+ATTR_HTML: :style margin-left: auto; margin-right: auto;
+[[./resource/screenshot2.png]]
+
 * Overview
 
 I built this because I saw people posting their Bloomberg terminals.
