@@ -1,0 +1,33 @@
+#+TITLE: GME Terminal
+
+* Overview
+
+I built this because I saw people posting their Bloomberg terminals.
+
+The data is sourced from the SEC directly, and is free but requires an API key (setup is easy).
+
+Windows & Mac binaries available below:
+
+[[https://tavurth.itch.io/gme-institutional-ownership][itch.io link]] to the downloads
+
+* Setup
+
+To get your API key here are the steps:
+
+1. https://developer.edgar-online.com/member/account
+2. Click "Request a key" at top right
+3. Fill out the sign-up form
+4. Activate your account
+5. https://developer.edgar-online.com/member/login
+6. Login and copy the API key from "My account" section
+
+* Development setup
+
+1. Download [[http://godotengine.org/][Godot]]
+2. Import the project from the first window which appears
+3. Press the play button at the top right
+
+* Features
+
+- Instrument picker (press ~i~)
+- Sorting (click on the headers)
