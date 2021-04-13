@@ -21,7 +21,10 @@ Windows, Mac & Linux binaries available below:
 - Sorting (click on the headers)
 - Multiple data sources available
   - Edgar API
+    This seems to be up to date based on the NASDAQ results but fintel has a bit more data
+
   - IEX Cloud
+    Seems to be more up to date than Edgar but costs $9 per month
 
 ** Shortcuts
 
