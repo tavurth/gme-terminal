@@ -4,7 +4,7 @@ var config
 
 func load_instrument(name: String):
 	$VBoxContainer/HeaderButtons/HBoxContainer/InstrumentName.text = name
-	$"VBoxContainer/cs-institutions".set_instrument(name)
+	$"VBoxContainer/TabContainer/cs-institutions".set_instrument(name)
 
 func _ready():
 	config = Utils.File.load_json("user://config.json")
@@ -13,6 +13,8 @@ func _ready():
 		return self.load_instrument(config.instrument)
 
 	self.load_instrument("GME")
+
+	$VBoxContainer/HeaderButtons/HBoxContainer/INST.grab_focus()
 
 func set_instrument(instrument: String):
 	self.load_instrument(instrument)
@@ -23,3 +25,9 @@ func set_instrument(instrument: String):
 func _on_BackButton_pressed():
 	Utils.File.write_json("user://config.json", { "instrument": config.instrument })
 	var _e = get_tree().change_scene("res://Splash.tscn")
+
+func _on_INST_pressed():
+	$VBoxContainer/TabContainer.set_current_tab(0)
+
+func _on_FTD_pressed():
+	$VBoxContainer/TabContainer.set_current_tab(1)

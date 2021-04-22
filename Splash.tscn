@@ -59,7 +59,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="IEX CLOUD" type="Tabs" parent="MarginContainer/HBoxContainer/VBoxContainer/TabContainer"]
+[node name="EDGAR API" type="Tabs" parent="MarginContainer/HBoxContainer/VBoxContainer/TabContainer"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_top = 55.0
@@ -68,27 +68,20 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer/VBoxContainer/TabContainer/IEX CLOUD"]
-anchor_right = 1.0
-anchor_bottom = 1.0
+[node name="RichTextLabel" type="RichTextLabel" parent="MarginContainer/HBoxContainer/VBoxContainer/TabContainer/EDGAR API"]
+margin_right = 470.0
+margin_bottom = 345.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="RichTextLabel" type="RichTextLabel" parent="MarginContainer/HBoxContainer/VBoxContainer/TabContainer/IEX CLOUD/VBoxContainer"]
-margin_right = 470.0
-margin_bottom = 260.0
 bbcode_enabled = true
-bbcode_text = "IEX Cloud has more up to date data, but costs $9 per month for access.
+bbcode_text = "Edgar API has free data, which should match the [url=https://www.nasdaq.com/market-activity/stocks/gme/institutional-holdings]NASDAQ reporting[/url].
 
-[url=https://iexcloud.io/cloud-login]Please click here get your API key[/url].
+[url=https://developer.edgar-online.com/member/register]Please click here get your API key[/url].
 
 When ready, copy the API key you generated into the box below.
 
 Made for the GME community in the [url=https://godotengine.org/license]Godot engine[/url]"
-text = "IEX Cloud has more up to date data, but costs $9 per month for access.
+text = "Edgar API has free data, which should match the NASDAQ reporting.
 
 Please click here get your API key.
 
@@ -96,8 +89,11 @@ When ready, copy the API key you generated into the box below.
 
 Made for the GME community in the Godot engine"
 fit_content_height = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
-[node name="EDGAR API" type="Tabs" parent="MarginContainer/HBoxContainer/VBoxContainer/TabContainer"]
+[node name="IEX CLOUD" type="Tabs" parent="MarginContainer/HBoxContainer/VBoxContainer/TabContainer"]
 visible = false
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -107,29 +103,18 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer/VBoxContainer/TabContainer/EDGAR API"]
-anchor_right = 1.0
-anchor_bottom = 1.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="RichTextLabel" type="RichTextLabel" parent="MarginContainer/HBoxContainer/VBoxContainer/TabContainer/EDGAR API/VBoxContainer"]
+[node name="RichTextLabel" type="RichTextLabel" parent="MarginContainer/HBoxContainer/VBoxContainer/TabContainer/IEX CLOUD"]
 margin_right = 470.0
-margin_bottom = 345.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
+margin_bottom = 260.0
 bbcode_enabled = true
-bbcode_text = "Edgar API has free data, but it may be a little stale.
+bbcode_text = "Costs $9 per month for access, but should match [url=https://fintel.io/so/us/gme]Fintel reporting[/url] (needs testing)
 
-[url=https://developer.edgar-online.com/member/register]Please click here get your API key[/url].
+[url=https://iexcloud.io/cloud-login]Please click here get your API key[/url].
 
 When ready, copy the API key you generated into the box below.
 
 Made for the GME community in the [url=https://godotengine.org/license]Godot engine[/url]"
-text = "Edgar API has free data, but it may be a little stale.
+text = "Costs $9 per month for access, but should match Fintel reporting (needs testing)
 
 Please click here get your API key.
 
@@ -176,7 +161,7 @@ texture = ExtResource( 3 )
 expand = true
 stretch_mode = 6
 [connection signal="tab_changed" from="MarginContainer/HBoxContainer/VBoxContainer/TabContainer" to="." method="_on_TabContainer_tab_changed"]
-[connection signal="meta_clicked" from="MarginContainer/HBoxContainer/VBoxContainer/TabContainer/IEX CLOUD/VBoxContainer/RichTextLabel" to="." method="_on_RichTextLabel_meta_clicked"]
-[connection signal="meta_clicked" from="MarginContainer/HBoxContainer/VBoxContainer/TabContainer/EDGAR API/VBoxContainer/RichTextLabel" to="." method="_on_RichTextLabel_meta_clicked"]
+[connection signal="meta_clicked" from="MarginContainer/HBoxContainer/VBoxContainer/TabContainer/EDGAR API/RichTextLabel" to="." method="_on_RichTextLabel_meta_clicked"]
+[connection signal="meta_clicked" from="MarginContainer/HBoxContainer/VBoxContainer/TabContainer/IEX CLOUD/RichTextLabel" to="." method="_on_RichTextLabel_meta_clicked"]
 [connection signal="gui_input" from="MarginContainer/HBoxContainer/VBoxContainer/HBoxContainer/LineEdit" to="." method="_on_LineEdit_gui_input"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainer/HBoxContainer/Button" to="." method="_on_Button_pressed"]

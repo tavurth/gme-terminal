@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://addons/cs-institutions/Institutions.gd" type="Script" id=1]
 [ext_resource path="res://Main.gd" type="Script" id=2]
@@ -8,6 +8,8 @@
 [ext_resource path="res://resource/back-hover.svg" type="Texture" id=6]
 [ext_resource path="res://Picker/open-hover.svg" type="Texture" id=7]
 [ext_resource path="res://resource/back.svg" type="Texture" id=8]
+[ext_resource path="res://view_buttons.tres" type="ButtonGroup" id=9]
+[ext_resource path="res://addons/cs-ftds/Ftds.tscn" type="PackedScene" id=10]
 
 [node name="Main" type="Control"]
 anchor_right = 1.0
@@ -70,8 +72,33 @@ __meta__ = {
 "_edit_use_anchors_": true
 }
 
-[node name="CenterPadding" type="Control" parent="VBoxContainer/HeaderButtons/HBoxContainer"]
+[node name="ButtonPadding" type="Control" parent="VBoxContainer/HeaderButtons/HBoxContainer"]
 margin_left = 88.0
+margin_right = 108.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 20, 0 )
+
+[node name="INST" type="Button" parent="VBoxContainer/HeaderButtons/HBoxContainer"]
+margin_left = 112.0
+margin_right = 172.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 60, 0 )
+toggle_mode = true
+pressed = true
+group = ExtResource( 9 )
+text = "INST"
+
+[node name="FTD" type="Button" parent="VBoxContainer/HeaderButtons/HBoxContainer"]
+margin_left = 176.0
+margin_right = 236.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 60, 0 )
+toggle_mode = true
+group = ExtResource( 9 )
+text = "FTD"
+
+[node name="CenterPadding" type="Control" parent="VBoxContainer/HeaderButtons/HBoxContainer"]
+margin_left = 240.0
 margin_right = 944.0
 margin_bottom = 40.0
 size_flags_horizontal = 3
@@ -83,18 +110,33 @@ margin_right = 984.0
 margin_bottom = 32.0
 text = "GME"
 
-[node name="cs-institutions" type="Control" parent="VBoxContainer"]
+[node name="TabContainer" type="TabContainer" parent="VBoxContainer"]
 margin_top = 54.0
 margin_right = 1024.0
 margin_bottom = 600.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+tabs_visible = false
+
+[node name="cs-institutions" type="Control" parent="VBoxContainer/TabContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 20.0
+size_flags_horizontal = 3
 size_flags_vertical = 3
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="cs-Ftds" parent="VBoxContainer/TabContainer" instance=ExtResource( 10 )]
+margin_right = 0.0
+margin_bottom = 0.0
+
 [node name="InstrumentPicker" parent="." instance=ExtResource( 4 )]
 [connection signal="pressed" from="VBoxContainer/HeaderButtons/HBoxContainer/BackButton" to="." method="_on_BackButton_pressed"]
 [connection signal="pressed" from="VBoxContainer/HeaderButtons/HBoxContainer/PickerButton" to="InstrumentPicker" method="show"]
-[connection signal="instrument_selected" from="InstrumentPicker" to="VBoxContainer/cs-institutions" method="set_instrument"]
+[connection signal="pressed" from="VBoxContainer/HeaderButtons/HBoxContainer/INST" to="." method="_on_INST_pressed"]
+[connection signal="pressed" from="VBoxContainer/HeaderButtons/HBoxContainer/FTD" to="." method="_on_FTD_pressed"]
 [connection signal="instrument_selected" from="InstrumentPicker" to="." method="set_instrument"]
+[connection signal="instrument_selected" from="InstrumentPicker" to="VBoxContainer/TabContainer/cs-institutions" method="set_instrument"]
