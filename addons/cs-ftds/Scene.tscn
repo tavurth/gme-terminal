@@ -1,13 +1,14 @@
 [gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://addons/cs-ftds/Ftds.gd" type="Script" id=1]
+[ext_resource path="res://addons/cs-ftds/Scene.gd" type="Script" id=2]
 
 [node name="cs-Ftds" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-script = ExtResource( 1 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Label" type="Label" parent="."]
 anchor_right = 1.0
@@ -15,3 +16,6 @@ anchor_bottom = 1.0
 text = "FTD"
 align = 1
 valign = 1
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
+download_chunk_size = 16777216

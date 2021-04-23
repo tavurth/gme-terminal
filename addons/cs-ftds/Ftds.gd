@@ -1,4 +1,7 @@
 extends Control
 
+var Scene = preload("Scene.tscn").instance()
+
 func _ready():
-	pass
+	self.add_child(Scene)
+

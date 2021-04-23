@@ -6,7 +6,7 @@ onready var LineEdit = $MarginContainer/HBoxContainer/VBoxContainer/HBoxContaine
 var config = {}
 
 func _ready():
-	var old_config = Utils.File.load_json("user://config.json")
+	var old_config = Utils.File.read_json("user://config.json")
 
 	if not old_config:
 		return

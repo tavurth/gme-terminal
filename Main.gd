@@ -7,7 +7,7 @@ func load_instrument(name: String):
 	$"VBoxContainer/TabContainer/cs-institutions".set_instrument(name)
 
 func _ready():
-	config = Utils.File.load_json("user://config.json")
+	config = Utils.File.read_json("user://config.json")
 
 	if config and "instrument" in config:
 		return self.load_instrument(config.instrument)

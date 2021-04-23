@@ -36,13 +36,13 @@ __meta__ = {
 
 [node name="Header" type="HBoxContainer" parent="TableContent/Container"]
 margin_right = 984.0
-margin_bottom = 31.0
+margin_bottom = 30.0
 rect_min_size = Vector2( 0, 30 )
 
 [node name="Company" type="Label" parent="TableContent/Container/Header"]
-margin_top = 3.0
+margin_top = 2.0
 margin_right = 331.0
-margin_bottom = 28.0
+margin_bottom = 27.0
 size_flags_horizontal = 3
 size_flags_stretch_ratio = 2.2
 text = "Holder Name"
@@ -50,7 +50,7 @@ text = "Holder Name"
 [node name="Shares" type="Button" parent="TableContent/Container/Header"]
 margin_left = 335.0
 margin_right = 486.0
-margin_bottom = 31.0
+margin_bottom = 30.0
 size_flags_horizontal = 3
 toggle_mode = true
 pressed = true
@@ -62,7 +62,7 @@ align = 2
 [node name="Change" type="Button" parent="TableContent/Container/Header"]
 margin_left = 490.0
 margin_right = 640.0
-margin_bottom = 31.0
+margin_bottom = 30.0
 size_flags_horizontal = 3
 toggle_mode = true
 group = ExtResource( 3 )
@@ -73,7 +73,7 @@ align = 2
 [node name="ChangePct" type="Button" parent="TableContent/Container/Header"]
 margin_left = 644.0
 margin_right = 795.0
-margin_bottom = 31.0
+margin_bottom = 30.0
 size_flags_horizontal = 3
 toggle_mode = true
 group = ExtResource( 3 )
@@ -84,7 +84,7 @@ align = 2
 [node name="FileDate" type="Button" parent="TableContent/Container/Header"]
 margin_left = 799.0
 margin_right = 950.0
-margin_bottom = 31.0
+margin_bottom = 30.0
 size_flags_horizontal = 3
 toggle_mode = true
 group = ExtResource( 3 )
@@ -95,16 +95,16 @@ align = 2
 [node name="Padding" type="Control" parent="TableContent/Container/Header"]
 margin_left = 954.0
 margin_right = 984.0
-margin_bottom = 31.0
+margin_bottom = 30.0
 rect_min_size = Vector2( 30, 0 )
 
 [node name="HSeparator" type="HSeparator" parent="TableContent/Container"]
-margin_top = 35.0
+margin_top = 34.0
 margin_right = 984.0
-margin_bottom = 39.0
+margin_bottom = 38.0
 
 [node name="Scroller" type="ScrollContainer" parent="TableContent/Container"]
-margin_top = 43.0
+margin_top = 42.0
 margin_right = 984.0
 margin_bottom = 580.0
 size_flags_horizontal = 3
@@ -112,7 +112,7 @@ size_flags_vertical = 3
 
 [node name="Table" type="VBoxContainer" parent="TableContent/Container/Scroller"]
 margin_right = 984.0
-margin_bottom = 537.0
+margin_bottom = 538.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 

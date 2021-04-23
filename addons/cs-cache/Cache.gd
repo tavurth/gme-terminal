@@ -11,7 +11,7 @@ const EXPIRY = 86400 # One day
 var CACHE = {}
 
 func load_cache():
-	var data = Utils.File.load_json("user://cache.json", File.COMPRESSION_ZSTD)
+	var data = Utils.File.read_json("user://cache.json", File.COMPRESSION_ZSTD)
 	if not data:
 		return
 

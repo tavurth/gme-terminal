@@ -50,7 +50,7 @@ func fetch(instrument: String, force: bool = false):
 	return result
 
 func _ready():
-	self.config = Utils.File.load_json("user://config.json")
+	self.config = Utils.File.read_json("user://config.json")
 	assert(self.config.api_source in SOURCES, "SOURCE NOT FOUND")
 
 	self.source = load(SOURCES[self.config.api_source]).instance()

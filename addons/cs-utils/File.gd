@@ -1,6 +1,6 @@
 extends Reference
 
-func load_json(filename, compression = -1):
+func read_string(filename, compression = -1):
 	var input_file = File.new()
 	var err
 
@@ -14,11 +14,11 @@ func load_json(filename, compression = -1):
 		push_error(filename + " " + Errors.string_name(err))
 		return null
 
-	var data = parse_json(input_file.get_as_text())
+	var data = input_file.get_as_text()
 	input_file.close()
 	return data
 
-func write_json(filename, data, compression = -1):
+func write_string(filename, data, compression = -1):
 	var input_file = File.new()
 	var err
 
@@ -32,5 +32,11 @@ func write_json(filename, data, compression = -1):
 		push_error(filename + " " + Errors.string_name(err))
 		return null
 
-	input_file.store_string(JSON.print(data))
+	input_file.store_string(data)
 	input_file.close()
+
+func read_json(filename, compression = -1):
+	return parse_json(read_string(filename, compression))
+
+func write_json(filename, data, compression = -1):
+	return write_string(filename, JSON.print(data), compression)

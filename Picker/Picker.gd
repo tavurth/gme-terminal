@@ -27,6 +27,7 @@ func _input(event: InputEvent):
 			return self.hide()
 
 	if self.visible: return
+	if Input.is_action_pressed("ui_flip"): return
 	if not event.is_action_pressed("ui_picker"): return
 
 	get_tree().set_input_as_handled()

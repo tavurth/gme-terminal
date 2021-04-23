@@ -9,7 +9,7 @@
 [ext_resource path="res://Picker/open-hover.svg" type="Texture" id=7]
 [ext_resource path="res://resource/back.svg" type="Texture" id=8]
 [ext_resource path="res://view_buttons.tres" type="ButtonGroup" id=9]
-[ext_resource path="res://addons/cs-ftds/Ftds.tscn" type="PackedScene" id=10]
+[ext_resource path="res://addons/cs-ftds/Ftds.gd" type="Script" id=10]
 
 [node name="Main" type="Control"]
 anchor_right = 1.0
@@ -129,9 +129,12 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="cs-Ftds" parent="VBoxContainer/TabContainer" instance=ExtResource( 10 )]
-margin_right = 0.0
-margin_bottom = 0.0
+[node name="cs-ftds" type="Control" parent="VBoxContainer/TabContainer"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 20.0
+script = ExtResource( 10 )
 
 [node name="InstrumentPicker" parent="." instance=ExtResource( 4 )]
 [connection signal="pressed" from="VBoxContainer/HeaderButtons/HBoxContainer/BackButton" to="." method="_on_BackButton_pressed"]

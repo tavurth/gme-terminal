@@ -53,10 +53,6 @@ func matches(instrument):
 
 	return true
 
-func _gui_input(event: InputEvent):
-	if event is InputEventScreenDrag:
-		self.Scroller.value -= event.relative.y
-
 func _input(event: InputEvent):
 	if not self.visible: return
 	if not event is InputEventKey: return
