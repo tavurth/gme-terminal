@@ -11,6 +11,10 @@ var ftds = []
 var loading = 0
 var instrument = null
 
+class DataSort:
+	static func by_date(a, b):
+		return a['settlement'] < b['settlement']
+
 func build_request(time: int):
 	var date = OS.get_datetime_from_unix_time(time)
 	return request_part.format({
@@ -89,6 +93,11 @@ func _completed(result = null):
 	var search = "|%s|" % self.instrument
 
 	var headers = lines[0].to_lower().split("|")
+
+	# I only care about the first word in header
+	for index in range(0, len(headers)):
+		headers[index] = headers[index].split(" ")[0]
+
 	var to_append = []
 
 	for line in lines:
@@ -99,6 +108,8 @@ func _completed(result = null):
 			for index in range(0, len(headers)):
 				to_add[headers[index]] = parts[index]
 
+			to_add.quantity = float(to_add.quantity)
+
 			to_append.append(to_add)
 
 	self.ftds += to_append
@@ -106,7 +117,8 @@ func _completed(result = null):
 	self.loaded_one()
 
 func fetch_months(months: int):
-	$Loader.show()
+
+	yield(get_tree().create_timer(0.5), "timeout")
 	self.ftds = []
 	var results = []
 
@@ -117,8 +129,9 @@ func fetch_months(months: int):
 		result.connect("completed", self, "_completed")
 
 func render_list():
-	for item in self.ftds:
-		print(item)
+	self.ftds.sort_custom(DataSort, "by_date")
+
+	$FTDChart.redraw(self.ftds)
 	$Loader.hide()
 
 func redraw():
@@ -126,9 +139,13 @@ func redraw():
 
 func set_instrument(instrument: String):
 	self.instrument = instrument
+	$Loader.show()
+	$FTDChart.reset()
 
 	if not self.get_parent().visible: return
 	self.fetch_months(2)
 
 func _ready():
+	$Loader.show()
+	$FTDChart.reset()
 	DataDir.change_dir(DIRECTORY)

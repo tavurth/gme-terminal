@@ -78,24 +78,24 @@ margin_right = 108.0
 margin_bottom = 40.0
 rect_min_size = Vector2( 20, 0 )
 
-[node name="INST" type="Button" parent="VBoxContainer/HeaderButtons/HBoxContainer"]
+[node name="FTD" type="Button" parent="VBoxContainer/HeaderButtons/HBoxContainer"]
 margin_left = 112.0
 margin_right = 172.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 60, 0 )
+toggle_mode = true
+group = ExtResource( 9 )
+text = "FTD"
+
+[node name="INST" type="Button" parent="VBoxContainer/HeaderButtons/HBoxContainer"]
+margin_left = 176.0
+margin_right = 236.0
 margin_bottom = 40.0
 rect_min_size = Vector2( 60, 0 )
 toggle_mode = true
 pressed = true
 group = ExtResource( 9 )
 text = "INST"
-
-[node name="FTD" type="Button" parent="VBoxContainer/HeaderButtons/HBoxContainer"]
-margin_left = 176.0
-margin_right = 236.0
-margin_bottom = 40.0
-rect_min_size = Vector2( 60, 0 )
-toggle_mode = true
-group = ExtResource( 9 )
-text = "FTD"
 
 [node name="CenterPadding" type="Control" parent="VBoxContainer/HeaderButtons/HBoxContainer"]
 margin_left = 240.0
@@ -118,7 +118,14 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 tabs_visible = false
 
+[node name="cs-ftds" type="Control" parent="VBoxContainer/TabContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 20.0
+script = ExtResource( 10 )
+
 [node name="cs-institutions" type="Control" parent="VBoxContainer/TabContainer"]
+visible = false
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_top = 20.0
@@ -129,20 +136,13 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="cs-ftds" type="Control" parent="VBoxContainer/TabContainer"]
-visible = false
-anchor_right = 1.0
-anchor_bottom = 1.0
-margin_top = 20.0
-script = ExtResource( 10 )
-
 [node name="InstrumentPicker" parent="." instance=ExtResource( 4 )]
 [connection signal="pressed" from="VBoxContainer/HeaderButtons/HBoxContainer/BackButton" to="." method="_on_BackButton_pressed"]
 [connection signal="pressed" from="VBoxContainer/HeaderButtons/HBoxContainer/PickerButton" to="InstrumentPicker" method="show"]
-[connection signal="pressed" from="VBoxContainer/HeaderButtons/HBoxContainer/INST" to="." method="_on_INST_pressed"]
 [connection signal="pressed" from="VBoxContainer/HeaderButtons/HBoxContainer/FTD" to="." method="_on_FTD_pressed"]
+[connection signal="pressed" from="VBoxContainer/HeaderButtons/HBoxContainer/INST" to="." method="_on_INST_pressed"]
 [connection signal="tab_changed" from="VBoxContainer/TabContainer" to="VBoxContainer/TabContainer/cs-institutions" method="redraw"]
 [connection signal="tab_changed" from="VBoxContainer/TabContainer" to="VBoxContainer/TabContainer/cs-ftds" method="redraw"]
-[connection signal="instrument_selected" from="InstrumentPicker" to="." method="set_instrument"]
 [connection signal="instrument_selected" from="InstrumentPicker" to="VBoxContainer/TabContainer/cs-institutions" method="set_instrument"]
 [connection signal="instrument_selected" from="InstrumentPicker" to="VBoxContainer/TabContainer/cs-ftds" method="set_instrument"]
+[connection signal="instrument_selected" from="InstrumentPicker" to="." method="set_instrument"]
