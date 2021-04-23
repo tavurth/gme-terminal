@@ -15,9 +15,12 @@ func _ready():
 
 	Scene.connect("instrument_set", self, "_on_instrument")
 
-func _on_instrument(instrument: String):
-	Data.fetch(instrument, true)
-
 func set_instrument(new_instrument: String):
 	self.instrument = new_instrument
+
+	if not self.visible: return
 	Data.fetch(new_instrument)
+
+func redraw(tab):
+	if not self.visible: return
+	Data.fetch(self.instrument)

@@ -1,5 +1,6 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
+[ext_resource path="res://addons/cs-institutions/Loader/Loader.tscn" type="PackedScene" id=1]
 [ext_resource path="res://addons/cs-ftds/Scene.gd" type="Script" id=2]
 
 [node name="cs-Ftds" type="Control"]
@@ -17,5 +18,4 @@ text = "FTD"
 align = 1
 valign = 1
 
-[node name="HTTPRequest" type="HTTPRequest" parent="."]
-download_chunk_size = 16777216
+[node name="Loader" parent="." instance=ExtResource( 1 )]

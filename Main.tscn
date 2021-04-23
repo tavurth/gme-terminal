@@ -141,5 +141,8 @@ script = ExtResource( 10 )
 [connection signal="pressed" from="VBoxContainer/HeaderButtons/HBoxContainer/PickerButton" to="InstrumentPicker" method="show"]
 [connection signal="pressed" from="VBoxContainer/HeaderButtons/HBoxContainer/INST" to="." method="_on_INST_pressed"]
 [connection signal="pressed" from="VBoxContainer/HeaderButtons/HBoxContainer/FTD" to="." method="_on_FTD_pressed"]
+[connection signal="tab_changed" from="VBoxContainer/TabContainer" to="VBoxContainer/TabContainer/cs-institutions" method="redraw"]
+[connection signal="tab_changed" from="VBoxContainer/TabContainer" to="VBoxContainer/TabContainer/cs-ftds" method="redraw"]
 [connection signal="instrument_selected" from="InstrumentPicker" to="." method="set_instrument"]
 [connection signal="instrument_selected" from="InstrumentPicker" to="VBoxContainer/TabContainer/cs-institutions" method="set_instrument"]
+[connection signal="instrument_selected" from="InstrumentPicker" to="VBoxContainer/TabContainer/cs-ftds" method="set_instrument"]

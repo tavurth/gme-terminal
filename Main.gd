@@ -4,16 +4,15 @@ var config
 
 func load_instrument(name: String):
 	$VBoxContainer/HeaderButtons/HBoxContainer/InstrumentName.text = name
-	$"VBoxContainer/TabContainer/cs-institutions".set_instrument(name)
 
 func _ready():
 	config = Utils.File.read_json("user://config.json")
 
 	if config and "instrument" in config:
+		$InstrumentPicker.emit_signal("instrument_selected", config.instrument)
 		return self.load_instrument(config.instrument)
 
-	self.load_instrument("GME")
-
+	$InstrumentPicker.emit_signal("instrument_selected", "GME")
 	$VBoxContainer/HeaderButtons/HBoxContainer/INST.grab_focus()
 
 func set_instrument(instrument: String):
