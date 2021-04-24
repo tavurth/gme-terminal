@@ -1,13 +1,15 @@
-extends HBoxContainer
+extends MarginContainer
 
 var FtdBar = preload("Ftd.tscn")
 
 func reset():
-	for child in self.get_children():
+	for child in $HBoxContainer.get_children():
 		child.queue_free()
 
 func redraw(ftds: Array):
 	self.reset()
+
+	print(len(ftds))
 
 	var ymax = -INF
 	for i in ftds:
@@ -20,6 +22,7 @@ func redraw(ftds: Array):
 	for ftd in ftds:
 		to_add = FtdBar.instance()
 
-		to_add.value = ftd.quantity * 100
+		to_add.get_node("Bar").value = ftd.quantity * 100
+		to_add.get_node("Label").text = str(ftd.settlement)
 
-		self.add_child(to_add)
+		$HBoxContainer.add_child(to_add)

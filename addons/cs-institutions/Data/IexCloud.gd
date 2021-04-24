@@ -22,10 +22,10 @@ func extract_data(data: Array):
 
 	return to_return
 
-func fetch(config: Dictionary, instrument: String, force = false):
+func fetch(config: Dictionary, instrument: String):
 	yield(get_tree(), "idle_frame")
 
-	var data = $HttpFetch.fetch_json(request_url.format({
+	var data = $HttpFetch.fetch(request_url.format({
 		"instrument": instrument,
 		"api_key": config.api_key
 	}))

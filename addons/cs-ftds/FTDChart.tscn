@@ -1,13 +1,14 @@
 [gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://addons/cs-ftds/FTDChart.gd" type="Script" id=1]
+[ext_resource path="res://addons/cs-ftds/FtdChart.gd" type="Script" id=1]
 
-[node name="FTDChart" type="HBoxContainer"]
+[node name="FtdChart" type="MarginContainer"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 script = ExtResource( 1 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+margin_right = 1024.0
+margin_bottom = 600.0

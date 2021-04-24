@@ -1,6 +1,5 @@
 extends VBoxContainer
 
-signal type_selected(type)
 signal instrument_selected(instrument)
 
 onready var ItemListContainer = $ItemListContainer
@@ -40,3 +39,6 @@ func _on_OutsidePicker_gui_input(event):
 
 	if event.button_index == 1:
 		self.hide()
+
+func set_instrument(instrument: Dictionary):
+	self.emit_signal("instrument_selected", instrument)

@@ -1,21 +1,30 @@
 extends Control
 
-var config
+var config = {}
 
-func load_instrument(name: String):
-	$VBoxContainer/HeaderButtons/HBoxContainer/InstrumentName.text = name
-
-func _ready():
+func get_config():
 	config = Utils.File.read_json("user://config.json")
 
-	if config and "instrument" in config:
-		$InstrumentPicker.emit_signal("instrument_selected", config.instrument)
-		return self.load_instrument(config.instrument)
+	if not config:
+		return {
+			"instrument": {
+				"cik": "1326380",
+				"name": "GME"
+			}
+		}
 
-	$InstrumentPicker.emit_signal("instrument_selected", "GME")
+	return config
+
+func load_instrument(instrument: Dictionary):
+	$VBoxContainer/HeaderButtons/HBoxContainer/Instrument.text = instrument.name
+
+func _ready():
+	$InstrumentPicker.set_instrument(Globals.config.instrument)
+	self.load_instrument(Globals.config.instrument)
+
 	$VBoxContainer/HeaderButtons/HBoxContainer/INST.grab_focus()
 
-func set_instrument(instrument: String):
+func set_instrument(instrument: Dictionary):
 	self.load_instrument(instrument)
 
 	config.instrument = instrument

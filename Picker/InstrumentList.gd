@@ -82,8 +82,7 @@ func select_instrument():
 		return
 
 	self.search = ""
-	Root.emit_signal("type_selected", self.selected.type)
-	Root.emit_signal("instrument_selected", self.selected.name)
+	Root.set_instrument(self.selected)
 	Root.hide()
 
 	self.selected = null

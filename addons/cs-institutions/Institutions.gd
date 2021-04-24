@@ -15,7 +15,7 @@ func _ready():
 
 	Scene.connect("instrument_set", self, "_on_instrument")
 
-func set_instrument(new_instrument: String):
+func set_instrument(new_instrument: Dictionary):
 	self.instrument = new_instrument
 
 	if not self.visible: return

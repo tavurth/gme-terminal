@@ -36,7 +36,10 @@ func write_string(filename, data, compression = -1):
 	input_file.close()
 
 func read_json(filename, compression = -1):
-	return parse_json(read_string(filename, compression))
+	var string = read_string(filename, compression)
+	if not string: return null
+	return parse_json(string)
 
 func write_json(filename, data, compression = -1):
+	if not data: return null
 	return write_string(filename, JSON.print(data), compression)

@@ -1,0 +1,3582 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>GameStop Corp. (0001326380)</title>
+  <subtitle>Submissions in last 365 days of type * (max count =
+  400)</subtitle>
+  <link href="https://www.sec.gov/edgar/browse/index.html?cik=1326380" />
+  <link href="https://data.sec.gov/rss?cik=1326380&amp;type=*&amp;count=400" />
+  <author>
+    <email>webmaster@sec.gov</email>
+    <name>Webmaster</name>
+  </author>
+  <id>urn:uuid:279838f9-e5de-4cad-8fbb-2c8a6b4bc5fe</id>
+  <updated>2021-04-24T18:47:05.237Z</updated>
+  <company-info>
+    <addresses>
+      <address type="mailing">
+        <street1>625 WESTPORT PARKWAY</street1>
+        <city>GRAPEVINE</city>
+        <stateOrCountry>TX</stateOrCountry>
+        <zipCode>76051</zipCode>
+        <stateOrCountryDescription>TX</stateOrCountryDescription>
+      </address>
+      <address type="business">
+        <street1>625 WESTPORT PARKWAY</street1>
+        <city>GRAPEVINE</city>
+        <stateOrCountry>TX</stateOrCountry>
+        <zipCode>76051</zipCode>
+        <stateOrCountryDescription>TX</stateOrCountryDescription>
+      </address>
+    </addresses>
+    <assigned-sic>5734</assigned-sic>
+    <assigned-sic-desc>Retail-Computer &amp; Computer Software
+    Stores</assigned-sic-desc>
+    <assigned-sic-href>
+    https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;SIC=5734&amp;owner=exclude;count=40</assigned-sic-href>
+    <confirmed-name>GameStop Corp.</confirmed-name>
+    <employer-identification-number>
+    000000000</employer-identification-number>
+    <fiscal-year-end>0130</fiscal-year-end>
+    <formerly-names count="1">
+      <names>
+        <date>2005-10-11</date>
+        <name>GSC Holdings Corp.</name>
+      </names>
+    </formerly-names>
+    <office>Office of Trade &amp; Services</office>
+    <state-location>TX</state-location>
+    <state-location-href>
+    https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;State=TX&amp;owner=exclude&amp;count=40</state-location-href>
+    <state-of-incorporation>DE</state-of-incorporation>
+  </company-info>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="DEFA14A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-04-22T17:26:59.000Z</acceptance-date-time>
+      <accession-number>0001193125-21-126943</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2021-04-22</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312521126943/0001193125-21-126943-index.htm</filing-href>
+      <film-number>21845756</film-number>
+      <form-name>Additional definitive proxy soliciting materials
+      and Rule 14(a)(12) material</form-name>
+      <size>95650</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-21-126943</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312521126943/0001193125-21-126943-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-04-22 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-21-126943 &lt;strong&gt;Size:&lt;/strong&gt;
+    96KB</summary>
+    <title>Additional definitive proxy soliciting materials and
+    Rule 14(a)(12) material</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="DEF 14A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-04-22T17:26:01.000Z</acceptance-date-time>
+      <accession-number>0001193125-21-126940</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2021-04-22</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312521126940/0001193125-21-126940-index.htm</filing-href>
+      <film-number>21845745</film-number>
+      <form-name>Other definitive proxy statements</form-name>
+      <report-date>2021-06-09</report-date>
+      <size>2139119</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-21-126940</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312521126940/0001193125-21-126940-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-04-22 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-21-126940 &lt;strong&gt;Size:&lt;/strong&gt;
+    3MB</summary>
+    <title>Other definitive proxy statements</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-04-20T17:38:24.000Z</acceptance-date-time>
+      <accession-number>0001326380-21-000049</accession-number>
+      <filing-date>2021-04-20</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638021000049/0001326380-21-000049-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2021-04-18</report-date>
+      <size>4795</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-21-000049</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638021000049/0001326380-21-000049-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-04-20 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-21-000049 &lt;strong&gt;Size:&lt;/strong&gt;
+    5KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="8-K" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-04-19T06:24:01.000Z</acceptance-date-time>
+      <accession-number>0001193125-21-120304</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2021-04-19</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312521120304/0001193125-21-120304-index.htm</filing-href>
+      <film-number>21833120</film-number>
+      <form-name>Current report</form-name>
+      <items-desc>items 5.02,7.01,9.01</items-desc>
+      <report-date>2021-04-18</report-date>
+      <size>226541</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001193125-21-120304&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-21-120304</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312521120304/0001193125-21-120304-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-04-19 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-21-120304 &lt;strong&gt;Size:&lt;/strong&gt;
+    227KB</summary>
+    <title>Current report</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-04-16T16:38:49.000Z</acceptance-date-time>
+      <accession-number>0001326380-21-000047</accession-number>
+      <filing-date>2021-04-16</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638021000047/0001326380-21-000047-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2021-04-15</report-date>
+      <size>6490</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-21-000047</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638021000047/0001326380-21-000047-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-04-16 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-21-000047 &lt;strong&gt;Size:&lt;/strong&gt;
+    7KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-04-14T17:03:40.000Z</acceptance-date-time>
+      <accession-number>0001326380-21-000045</accession-number>
+      <filing-date>2021-04-14</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638021000045/0001326380-21-000045-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2021-04-12</report-date>
+      <size>9856</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-21-000045</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638021000045/0001326380-21-000045-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-04-14 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-21-000045 &lt;strong&gt;Size:&lt;/strong&gt;
+    10KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-04-14T17:01:33.000Z</acceptance-date-time>
+      <accession-number>0001326380-21-000044</accession-number>
+      <filing-date>2021-04-14</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638021000044/0001326380-21-000044-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2021-04-12</report-date>
+      <size>8209</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-21-000044</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638021000044/0001326380-21-000044-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-04-14 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-21-000044 &lt;strong&gt;Size:&lt;/strong&gt;
+    9KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="8-K" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-04-13T16:16:02.000Z</acceptance-date-time>
+      <accession-number>0001193125-21-114706</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2021-04-13</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312521114706/0001193125-21-114706-index.htm</filing-href>
+      <film-number>21823261</film-number>
+      <form-name>Current report</form-name>
+      <items-desc>items 1.02,2.04,7.01,9.01</items-desc>
+      <report-date>2021-04-13</report-date>
+      <size>165146</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001193125-21-114706&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-21-114706</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312521114706/0001193125-21-114706-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-04-13 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-21-114706 &lt;strong&gt;Size:&lt;/strong&gt;
+    166KB</summary>
+    <title>Current report</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="DEFA14A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-04-08T07:12:58.000Z</acceptance-date-time>
+      <accession-number>0001193125-21-109532</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2021-04-08</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312521109532/0001193125-21-109532-index.htm</filing-href>
+      <film-number>21813769</film-number>
+      <form-name>Additional definitive proxy soliciting materials
+      and Rule 14(a)(12) material</form-name>
+      <size>37854</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-21-109532</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312521109532/0001193125-21-109532-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-04-08 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-21-109532 &lt;strong&gt;Size:&lt;/strong&gt;
+    38KB</summary>
+    <title>Additional definitive proxy soliciting materials and
+    Rule 14(a)(12) material</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="8-K" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-04-08T07:09:31.000Z</acceptance-date-time>
+      <accession-number>0001193125-21-109530</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2021-04-08</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312521109530/0001193125-21-109530-index.htm</filing-href>
+      <film-number>21813766</film-number>
+      <form-name>Current report</form-name>
+      <items-desc>items 5.02,7.01,9.01</items-desc>
+      <report-date>2021-04-05</report-date>
+      <size>167854</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001193125-21-109530&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-21-109530</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312521109530/0001193125-21-109530-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-04-08 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-21-109530 &lt;strong&gt;Size:&lt;/strong&gt;
+    168KB</summary>
+    <title>Current report</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-04-05T16:44:15.000Z</acceptance-date-time>
+      <accession-number>0001326380-21-000041</accession-number>
+      <filing-date>2021-04-05</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638021000041/0001326380-21-000041-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2021-04-01</report-date>
+      <size>4488</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-21-000041</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638021000041/0001326380-21-000041-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-04-05 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-21-000041 &lt;strong&gt;Size:&lt;/strong&gt;
+    5KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="3" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-04-05T16:42:17.000Z</acceptance-date-time>
+      <accession-number>0001326380-21-000040</accession-number>
+      <filing-date>2021-04-05</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638021000040/0001326380-21-000040-index.htm</filing-href>
+      <form-name>Initial statement of beneficial ownership of
+      securities</form-name>
+      <report-date>2021-03-29</report-date>
+      <size>6602</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-21-000040</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638021000040/0001326380-21-000040-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-04-05 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-21-000040 &lt;strong&gt;Size:&lt;/strong&gt;
+    7KB</summary>
+    <title>Initial statement of beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="424B5" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-04-05T06:35:50.000Z</acceptance-date-time>
+      <accession-number>0001193125-21-105564</accession-number>
+      <act>33</act>
+      <file-number>333-251197</file-number>
+      <filing-date>2021-04-05</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312521105564/0001193125-21-105564-index.htm</filing-href>
+      <film-number>21803685</film-number>
+      <form-name>Prospectus [Rule 424(b)(5)]</form-name>
+      <size>342422</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-21-105564</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312521105564/0001193125-21-105564-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-04-05 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-21-105564 &lt;strong&gt;Size:&lt;/strong&gt;
+    343KB</summary>
+    <title>Prospectus [Rule 424(b)(5)]</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="8-K" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-04-05T06:11:00.000Z</acceptance-date-time>
+      <accession-number>0001193125-21-105534</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2021-04-05</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312521105534/0001193125-21-105534-index.htm</filing-href>
+      <film-number>21803655</film-number>
+      <form-name>Current report</form-name>
+      <items-desc>items 7.01,8.01,9.01</items-desc>
+      <report-date>2021-04-05</report-date>
+      <size>243907</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001193125-21-105534&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-21-105534</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312521105534/0001193125-21-105534-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-04-05 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-21-105534 &lt;strong&gt;Size:&lt;/strong&gt;
+    244KB</summary>
+    <title>Current report</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-04-01T18:40:28.000Z</acceptance-date-time>
+      <accession-number>0001326380-21-000037</accession-number>
+      <filing-date>2021-04-01</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638021000037/0001326380-21-000037-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2021-03-30</report-date>
+      <size>7730</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-21-000037</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638021000037/0001326380-21-000037-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-04-01 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-21-000037 &lt;strong&gt;Size:&lt;/strong&gt;
+    8KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="8-K" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-04-01T16:32:47.000Z</acceptance-date-time>
+      <accession-number>0001326380-21-000035</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2021-04-01</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638021000035/0001326380-21-000035-index.htm</filing-href>
+      <film-number>21798516</film-number>
+      <form-name>Current report</form-name>
+      <items-desc>items 5.02</items-desc>
+      <report-date>2021-03-29</report-date>
+      <size>226760</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001326380-21-000035&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-21-000035</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638021000035/0001326380-21-000035-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-04-01 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-21-000035 &lt;strong&gt;Size:&lt;/strong&gt;
+    227KB</summary>
+    <title>Current report</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-03-26T17:58:16.000Z</acceptance-date-time>
+      <accession-number>0001225385-21-000131</accession-number>
+      <filing-date>2021-03-26</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000122538521000131/0001225385-21-000131-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2021-03-01</report-date>
+      <size>4561</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001225385-21-000131</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000122538521000131/0001225385-21-000131-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-03-26 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001225385-21-000131 &lt;strong&gt;Size:&lt;/strong&gt;
+    5KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="10-K" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-03-23T16:39:12.000Z</acceptance-date-time>
+      <accession-number>0001326380-21-000032</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2021-03-23</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638021000032/0001326380-21-000032-index.htm</filing-href>
+      <film-number>21765261</film-number>
+      <form-name>Annual report [Section 13 and 15(d), not S-K Item
+      405]</form-name>
+      <report-date>2021-01-30</report-date>
+      <size>13436158</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001326380-21-000032&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-21-000032</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638021000032/0001326380-21-000032-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-03-23 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-21-000032 &lt;strong&gt;Size:&lt;/strong&gt;
+    14MB</summary>
+    <title>Annual report [Section 13 and 15(d), not S-K Item
+    405]</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="8-K" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-03-23T16:29:47.000Z</acceptance-date-time>
+      <accession-number>0001326380-21-000030</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2021-03-23</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638021000030/0001326380-21-000030-index.htm</filing-href>
+      <film-number>21765102</film-number>
+      <form-name>Current report</form-name>
+      <items-desc>items 2.02,5.02,7.01,9.01</items-desc>
+      <report-date>2021-03-23</report-date>
+      <size>710952</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001326380-21-000030&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-21-000030</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638021000030/0001326380-21-000030-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-03-23 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-21-000030 &lt;strong&gt;Size:&lt;/strong&gt;
+    711KB</summary>
+    <title>Current report</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="8-K" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-03-23T06:57:02.000Z</acceptance-date-time>
+      <accession-number>0001193125-21-090320</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2021-03-23</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312521090320/0001193125-21-090320-index.htm</filing-href>
+      <film-number>21763125</film-number>
+      <form-name>Current report</form-name>
+      <items-desc>items 5.02,9.01</items-desc>
+      <report-date>2021-03-21</report-date>
+      <size>205971</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001193125-21-090320&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-21-090320</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312521090320/0001193125-21-090320-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-03-23 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-21-090320 &lt;strong&gt;Size:&lt;/strong&gt;
+    206KB</summary>
+    <title>Current report</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="8-K" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-02-23T16:39:45.000Z</acceptance-date-time>
+      <accession-number>0001326380-21-000024</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2021-02-23</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638021000024/0001326380-21-000024-index.htm</filing-href>
+      <film-number>21666197</film-number>
+      <form-name>Current report</form-name>
+      <items-desc>items 5.02,7.01,9.01</items-desc>
+      <report-date>2021-02-23</report-date>
+      <size>327870</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001326380-21-000024&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-21-000024</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638021000024/0001326380-21-000024-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-02-23 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-21-000024 &lt;strong&gt;Size:&lt;/strong&gt;
+    328KB</summary>
+    <title>Current report</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-02-16T16:16:52.000Z</acceptance-date-time>
+      <accession-number>0001225385-21-000031</accession-number>
+      <filing-date>2021-02-16</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000122538521000031/0001225385-21-000031-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2021-02-11</report-date>
+      <size>4483</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001225385-21-000031</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000122538521000031/0001225385-21-000031-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-02-16 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001225385-21-000031 &lt;strong&gt;Size:&lt;/strong&gt;
+    5KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-02-16T16:11:02.000Z</acceptance-date-time>
+      <accession-number>0001225385-21-000030</accession-number>
+      <filing-date>2021-02-16</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000122538521000030/0001225385-21-000030-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2021-02-11</report-date>
+      <size>4485</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001225385-21-000030</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000122538521000030/0001225385-21-000030-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-02-16 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001225385-21-000030 &lt;strong&gt;Size:&lt;/strong&gt;
+    5KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="SC 13G" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-02-16T14:08:51.000Z</acceptance-date-time>
+      <accession-number>0001193125-21-044436</accession-number>
+      <act>34</act>
+      <file-number>005-81055</file-number>
+      <filing-date>2021-02-16</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312521044436/0001193125-21-044436-index.htm</filing-href>
+      <film-number>21636086</film-number>
+      <form-name>Statement of acquisition of beneficial ownership
+      by individuals</form-name>
+      <size>104237</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-21-044436</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312521044436/0001193125-21-044436-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-02-16 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-21-044436 &lt;strong&gt;Size:&lt;/strong&gt;
+    105KB</summary>
+    <title>Statement of acquisition of beneficial ownership by
+    individuals</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="SC 13G" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-02-16T13:27:55.000Z</acceptance-date-time>
+      <accession-number>0001104659-21-023554</accession-number>
+      <act>34</act>
+      <file-number>005-81055</file-number>
+      <filing-date>2021-02-16</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000110465921023554/0001104659-21-023554-index.htm</filing-href>
+      <film-number>21635581</film-number>
+      <form-name>Statement of acquisition of beneficial ownership
+      by individuals</form-name>
+      <size>73429</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001104659-21-023554</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000110465921023554/0001104659-21-023554-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-02-16 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001104659-21-023554 &lt;strong&gt;Size:&lt;/strong&gt;
+    74KB</summary>
+    <title>Statement of acquisition of beneficial ownership by
+    individuals</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="SC 13G/A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-02-12T16:58:45.000Z</acceptance-date-time>
+      <accession-number>0001104659-21-022073</accession-number>
+      <act>34</act>
+      <file-number>005-81055</file-number>
+      <filing-date>2021-02-12</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000110465921022073/0001104659-21-022073-index.htm</filing-href>
+      <film-number>21629017</film-number>
+      <form-name>Statement of acquisition of beneficial ownership
+      by individuals - amended</form-name>
+      <size>37355</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001104659-21-022073</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000110465921022073/0001104659-21-022073-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-02-12 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001104659-21-022073 &lt;strong&gt;Size:&lt;/strong&gt;
+    38KB</summary>
+    <title>Statement of acquisition of beneficial ownership by
+    individuals - amended</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="SC 13G/A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-02-12T16:04:26.000Z</acceptance-date-time>
+      <accession-number>0000902664-21-001289</accession-number>
+      <act>34</act>
+      <file-number>005-81055</file-number>
+      <filing-date>2021-02-12</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000090266421001289/0000902664-21-001289-index.htm</filing-href>
+      <film-number>21627125</film-number>
+      <form-name>Statement of acquisition of beneficial ownership
+      by individuals - amended</form-name>
+      <size>60997</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000902664-21-001289</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000090266421001289/0000902664-21-001289-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-02-12 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000902664-21-001289 &lt;strong&gt;Size:&lt;/strong&gt;
+    61KB</summary>
+    <title>Statement of acquisition of beneficial ownership by
+    individuals - amended</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="SC 13G" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-02-12T15:20:56.000Z</acceptance-date-time>
+      <accession-number>0000354204-21-000127</accession-number>
+      <act>34</act>
+      <file-number>005-81055</file-number>
+      <filing-date>2021-02-12</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000035420421000127/0000354204-21-000127-index.htm</filing-href>
+      <film-number>21626416</film-number>
+      <form-name>Statement of acquisition of beneficial ownership
+      by individuals</form-name>
+      <size>19419</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000354204-21-000127</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000035420421000127/0000354204-21-000127-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-02-12 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000354204-21-000127 &lt;strong&gt;Size:&lt;/strong&gt;
+    20KB</summary>
+    <title>Statement of acquisition of beneficial ownership by
+    individuals</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="SC 13G/A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-02-12T08:49:16.000Z</acceptance-date-time>
+      <accession-number>0000093751-21-000355</accession-number>
+      <act>34</act>
+      <file-number>005-81055</file-number>
+      <filing-date>2021-02-12</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000009375121000355/0000093751-21-000355-index.htm</filing-href>
+      <film-number>21623126</film-number>
+      <form-name>Statement of acquisition of beneficial ownership
+      by individuals - amended</form-name>
+      <size>8403</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000093751-21-000355</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000009375121000355/0000093751-21-000355-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-02-12 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000093751-21-000355 &lt;strong&gt;Size:&lt;/strong&gt;
+    9KB</summary>
+    <title>Statement of acquisition of beneficial ownership by
+    individuals - amended</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="SC 13G/A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-02-10T10:57:16.000Z</acceptance-date-time>
+      <accession-number>0001104659-21-018148</accession-number>
+      <act>34</act>
+      <file-number>005-81055</file-number>
+      <filing-date>2021-02-10</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000110465921018148/0001104659-21-018148-index.htm</filing-href>
+      <film-number>21610836</film-number>
+      <form-name>Statement of acquisition of beneficial ownership
+      by individuals - amended</form-name>
+      <size>13889</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001104659-21-018148</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000110465921018148/0001104659-21-018148-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-02-10 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001104659-21-018148 &lt;strong&gt;Size:&lt;/strong&gt;
+    14KB</summary>
+    <title>Statement of acquisition of beneficial ownership by
+    individuals - amended</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="SC 13G/A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-02-10T09:23:27.000Z</acceptance-date-time>
+      <accession-number>0000315066-21-001389</accession-number>
+      <act>34</act>
+      <file-number>005-81055</file-number>
+      <filing-date>2021-02-10</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000031506621001389/0000315066-21-001389-index.htm</filing-href>
+      <film-number>21609600</film-number>
+      <form-name>Statement of acquisition of beneficial ownership
+      by individuals - amended</form-name>
+      <size>7872</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000315066-21-001389</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000031506621001389/0000315066-21-001389-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-02-10 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000315066-21-001389 &lt;strong&gt;Size:&lt;/strong&gt;
+    8KB</summary>
+    <title>Statement of acquisition of beneficial ownership by
+    individuals - amended</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="SC 13G/A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-02-08T10:23:29.000Z</acceptance-date-time>
+      <accession-number>0000315066-21-001050</accession-number>
+      <act>34</act>
+      <file-number>005-81055</file-number>
+      <filing-date>2021-02-08</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000031506621001050/0000315066-21-001050-index.htm</filing-href>
+      <film-number>21599537</film-number>
+      <form-name>Statement of acquisition of beneficial ownership
+      by individuals - amended</form-name>
+      <size>8784</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000315066-21-001050</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000031506621001050/0000315066-21-001050-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-02-08 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000315066-21-001050 &lt;strong&gt;Size:&lt;/strong&gt;
+    9KB</summary>
+    <title>Statement of acquisition of beneficial ownership by
+    individuals - amended</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="SC 13G/A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-01-28T06:08:51.000Z</acceptance-date-time>
+      <accession-number>0001193125-21-019848</accession-number>
+      <act>34</act>
+      <file-number>005-81055</file-number>
+      <filing-date>2021-01-28</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312521019848/0001193125-21-019848-index.htm</filing-href>
+      <film-number>21561925</film-number>
+      <form-name>Statement of acquisition of beneficial ownership
+      by individuals - amended</form-name>
+      <size>86718</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-21-019848</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312521019848/0001193125-21-019848-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-01-28 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-21-019848 &lt;strong&gt;Size:&lt;/strong&gt;
+    87KB</summary>
+    <title>Statement of acquisition of beneficial ownership by
+    individuals - amended</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="SC 13G/A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-01-26T14:22:04.000Z</acceptance-date-time>
+      <accession-number>0000834237-21-001340</accession-number>
+      <act>34</act>
+      <file-number>005-81055</file-number>
+      <filing-date>2021-01-26</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000083423721001340/0000834237-21-001340-index.htm</filing-href>
+      <film-number>21553212</film-number>
+      <form-name>Statement of acquisition of beneficial ownership
+      by individuals - amended</form-name>
+      <size>13287</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000834237-21-001340</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000083423721001340/0000834237-21-001340-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-01-26 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000834237-21-001340 &lt;strong&gt;Size:&lt;/strong&gt;
+    14KB</summary>
+    <title>Statement of acquisition of beneficial ownership by
+    individuals - amended</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-01-19T17:12:16.000Z</acceptance-date-time>
+      <accession-number>0001326380-21-000020</accession-number>
+      <filing-date>2021-01-19</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638021000020/0001326380-21-000020-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2021-01-15</report-date>
+      <size>7030</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-21-000020</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638021000020/0001326380-21-000020-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-01-19 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-21-000020 &lt;strong&gt;Size:&lt;/strong&gt;
+    8KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="3" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-01-19T16:47:28.000Z</acceptance-date-time>
+      <accession-number>0001326380-21-000018</accession-number>
+      <filing-date>2021-01-19</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638021000018/0001326380-21-000018-index.htm</filing-href>
+      <form-name>Initial statement of beneficial ownership of
+      securities</form-name>
+      <report-date>2021-01-10</report-date>
+      <size>7243</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-21-000018</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638021000018/0001326380-21-000018-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-01-19 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-21-000018 &lt;strong&gt;Size:&lt;/strong&gt;
+    8KB</summary>
+    <title>Initial statement of beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="3" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-01-19T16:47:14.000Z</acceptance-date-time>
+      <accession-number>0001326380-21-000017</accession-number>
+      <filing-date>2021-01-19</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638021000017/0001326380-21-000017-index.htm</filing-href>
+      <form-name>Initial statement of beneficial ownership of
+      securities</form-name>
+      <report-date>2021-01-10</report-date>
+      <size>6661</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-21-000017</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638021000017/0001326380-21-000017-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-01-19 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-21-000017 &lt;strong&gt;Size:&lt;/strong&gt;
+    7KB</summary>
+    <title>Initial statement of beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-01-15T16:15:21.000Z</acceptance-date-time>
+      <accession-number>0001326380-21-000014</accession-number>
+      <filing-date>2021-01-15</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638021000014/0001326380-21-000014-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2021-01-13</report-date>
+      <size>7105</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-21-000014</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638021000014/0001326380-21-000014-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-01-15 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-21-000014 &lt;strong&gt;Size:&lt;/strong&gt;
+    8KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-01-15T16:15:01.000Z</acceptance-date-time>
+      <accession-number>0001326380-21-000013</accession-number>
+      <filing-date>2021-01-15</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638021000013/0001326380-21-000013-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2021-01-13</report-date>
+      <size>10909</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-21-000013</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638021000013/0001326380-21-000013-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-01-15 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-21-000013 &lt;strong&gt;Size:&lt;/strong&gt;
+    11KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-01-15T16:14:40.000Z</acceptance-date-time>
+      <accession-number>0001326380-21-000012</accession-number>
+      <filing-date>2021-01-15</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638021000012/0001326380-21-000012-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2021-01-13</report-date>
+      <size>5060</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-21-000012</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638021000012/0001326380-21-000012-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-01-15 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-21-000012 &lt;strong&gt;Size:&lt;/strong&gt;
+    6KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-01-14T18:59:02.000Z</acceptance-date-time>
+      <accession-number>0000899243-21-002090</accession-number>
+      <filing-date>2021-01-14</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000089924321002090/0000899243-21-002090-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2021-01-12</report-date>
+      <size>15545</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000899243-21-002090</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000089924321002090/0000899243-21-002090-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-01-14 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000899243-21-002090 &lt;strong&gt;Size:&lt;/strong&gt;
+    16KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="8-K" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-01-11T08:33:53.000Z</acceptance-date-time>
+      <accession-number>0001326380-21-000008</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2021-01-11</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638021000008/0001326380-21-000008-index.htm</filing-href>
+      <film-number>21519407</film-number>
+      <form-name>Current report</form-name>
+      <items-desc>items 7.01,9.01</items-desc>
+      <report-date>2021-01-11</report-date>
+      <size>370948</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001326380-21-000008&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-21-000008</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638021000008/0001326380-21-000008-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-01-11 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-21-000008 &lt;strong&gt;Size:&lt;/strong&gt;
+    371KB</summary>
+    <title>Current report</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="SC 13D/A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-01-11T08:01:11.000Z</acceptance-date-time>
+      <accession-number>0001193805-21-000031</accession-number>
+      <act>34</act>
+      <file-number>005-81055</file-number>
+      <filing-date>2021-01-11</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119380521000031/0001193805-21-000031-index.htm</filing-href>
+      <film-number>21519323</film-number>
+      <form-name>General statement of acquisition of beneficial
+      ownership - amended</form-name>
+      <size>173406</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193805-21-000031</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119380521000031/0001193805-21-000031-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-01-11 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193805-21-000031 &lt;strong&gt;Size:&lt;/strong&gt;
+    174KB</summary>
+    <title>General statement of acquisition of beneficial ownership
+    - amended</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="8-K" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2021-01-11T07:33:23.000Z</acceptance-date-time>
+      <accession-number>0001326380-21-000006</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2021-01-11</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638021000006/0001326380-21-000006-index.htm</filing-href>
+      <film-number>21519154</film-number>
+      <form-name>Current report</form-name>
+      <items-desc>items 1.01,5.02,7.01,9.01</items-desc>
+      <report-date>2021-01-11</report-date>
+      <size>507051</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001326380-21-000006&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-21-000006</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638021000006/0001326380-21-000006-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2021-01-11 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-21-000006 &lt;strong&gt;Size:&lt;/strong&gt;
+    508KB</summary>
+    <title>Current report</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-12-21T16:06:06.000Z</acceptance-date-time>
+      <accession-number>0001193805-20-001580</accession-number>
+      <filing-date>2020-12-21</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119380520001580/0001193805-20-001580-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2020-12-17</report-date>
+      <size>10751</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193805-20-001580</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119380520001580/0001193805-20-001580-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-12-21 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193805-20-001580 &lt;strong&gt;Size:&lt;/strong&gt;
+    11KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="3" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-12-21T16:05:34.000Z</acceptance-date-time>
+      <accession-number>0001193805-20-001579</accession-number>
+      <filing-date>2020-12-21</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119380520001579/0001193805-20-001579-index.htm</filing-href>
+      <form-name>Initial statement of beneficial ownership of
+      securities</form-name>
+      <report-date>2020-12-17</report-date>
+      <size>6392</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193805-20-001579</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119380520001579/0001193805-20-001579-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-12-21 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193805-20-001579 &lt;strong&gt;Size:&lt;/strong&gt;
+    7KB</summary>
+    <title>Initial statement of beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="SC 13D/A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-12-21T08:30:32.000Z</acceptance-date-time>
+      <accession-number>0001193805-20-001571</accession-number>
+      <act>34</act>
+      <file-number>005-81055</file-number>
+      <filing-date>2020-12-21</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119380520001571/0001193805-20-001571-index.htm</filing-href>
+      <film-number>201402494</film-number>
+      <form-name>General statement of acquisition of beneficial
+      ownership - amended</form-name>
+      <size>76038</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193805-20-001571</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119380520001571/0001193805-20-001571-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-12-21 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193805-20-001571 &lt;strong&gt;Size:&lt;/strong&gt;
+    77KB</summary>
+    <title>General statement of acquisition of beneficial ownership
+    - amended</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="8-K" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-12-08T16:43:55.000Z</acceptance-date-time>
+      <accession-number>0001193125-20-312809</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-12-08</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312520312809/0001193125-20-312809-index.htm</filing-href>
+      <film-number>201375823</film-number>
+      <form-name>Current report</form-name>
+      <items-desc>items 1.01,9.01</items-desc>
+      <report-date>2020-12-08</report-date>
+      <size>424686</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001193125-20-312809&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-20-312809</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312520312809/0001193125-20-312809-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-12-08 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-20-312809 &lt;strong&gt;Size:&lt;/strong&gt;
+    425KB</summary>
+    <title>Current report</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="424B5" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-12-08T16:40:50.000Z</acceptance-date-time>
+      <accession-number>0001193125-20-312805</accession-number>
+      <act>33</act>
+      <file-number>333-251197</file-number>
+      <filing-date>2020-12-08</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312520312805/0001193125-20-312805-index.htm</filing-href>
+      <film-number>201375804</film-number>
+      <form-name>Prospectus [Rule 424(b)(5)]</form-name>
+      <size>369444</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-20-312805</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312520312805/0001193125-20-312805-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-12-08 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-20-312805 &lt;strong&gt;Size:&lt;/strong&gt;
+    370KB</summary>
+    <title>Prospectus [Rule 424(b)(5)]</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="S-3ASR" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-12-08T16:32:23.000Z</acceptance-date-time>
+      <accession-number>0001193125-20-312781</accession-number>
+      <act>33</act>
+      <file-number>333-251197</file-number>
+      <filing-date>2020-12-08</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312520312781/0001193125-20-312781-index.htm</filing-href>
+      <film-number>201375724</film-number>
+      <form-name>Automatic shelf registration statement of
+      securities of well-known seasoned issuers</form-name>
+      <size>323982</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-20-312781</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312520312781/0001193125-20-312781-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-12-08 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-20-312781 &lt;strong&gt;Size:&lt;/strong&gt;
+    324KB</summary>
+    <title>Automatic shelf registration statement of securities of
+    well-known seasoned issuers</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="10-Q" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-12-08T16:12:21.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000134</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-12-08</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000134/0001326380-20-000134-index.htm</filing-href>
+      <film-number>201375430</film-number>
+      <form-name>Quarterly report [Sections 13 or
+      15(d)]</form-name>
+      <report-date>2020-10-31</report-date>
+      <size>6532268</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001326380-20-000134&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000134</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000134/0001326380-20-000134-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-12-08 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000134 &lt;strong&gt;Size:&lt;/strong&gt;
+    7MB</summary>
+    <title>Quarterly report [Sections 13 or 15(d)]</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="8-K" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-12-08T16:09:08.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000132</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-12-08</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000132/0001326380-20-000132-index.htm</filing-href>
+      <film-number>201375404</film-number>
+      <form-name>Current report</form-name>
+      <items-desc>items 2.02,7.01,8.01,9.01</items-desc>
+      <report-date>2020-12-08</report-date>
+      <size>747471</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001326380-20-000132&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000132</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000132/0001326380-20-000132-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-12-08 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000132 &lt;strong&gt;Size:&lt;/strong&gt;
+    748KB</summary>
+    <title>Current report</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="SC 13D/A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-11-16T19:52:08.000Z</acceptance-date-time>
+      <accession-number>0001013594-20-000821</accession-number>
+      <act>34</act>
+      <file-number>005-81055</file-number>
+      <filing-date>2020-11-17</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000101359420000821/0001013594-20-000821-index.htm</filing-href>
+      <film-number>201318974</film-number>
+      <form-name>General statement of acquisition of beneficial
+      ownership - amended</form-name>
+      <size>494499</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001013594-20-000821</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000101359420000821/0001013594-20-000821-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-11-17 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001013594-20-000821 &lt;strong&gt;Size:&lt;/strong&gt;
+    495KB</summary>
+    <title>General statement of acquisition of beneficial ownership
+    - amended</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="8-K" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-11-10T16:13:00.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000126</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-11-10</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000126/0001326380-20-000126-index.htm</filing-href>
+      <film-number>201301254</film-number>
+      <form-name>Current report</form-name>
+      <items-desc>items 2.04</items-desc>
+      <report-date>2020-11-10</report-date>
+      <size>227901</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001326380-20-000126&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000126</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000126/0001326380-20-000126-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-11-10 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000126 &lt;strong&gt;Size:&lt;/strong&gt;
+    228KB</summary>
+    <title>Current report</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="SC 13G" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-10-13T16:21:17.000Z</acceptance-date-time>
+      <accession-number>0000902664-20-003611</accession-number>
+      <act>34</act>
+      <file-number>005-81055</file-number>
+      <filing-date>2020-10-13</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000090266420003611/0000902664-20-003611-index.htm</filing-href>
+      <film-number>201236525</film-number>
+      <form-name>Statement of acquisition of beneficial ownership
+      by individuals</form-name>
+      <size>66234</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000902664-20-003611</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000090266420003611/0000902664-20-003611-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-10-13 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000902664-20-003611 &lt;strong&gt;Size:&lt;/strong&gt;
+    67KB</summary>
+    <title>Statement of acquisition of beneficial ownership by
+    individuals</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="UPLOAD" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-10-05T11:55:27.000Z</acceptance-date-time>
+      <accession-number>0000000000-20-009346</accession-number>
+      <filing-date>2020-10-05</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000000000020009346/0000000000-20-009346-index.htm</filing-href>
+      <form-name>SEC-generated letter</form-name>
+      <size>39789</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000000000-20-009346</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000000000020009346/0000000000-20-009346-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-10-05 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000000000-20-009346 &lt;strong&gt;Size:&lt;/strong&gt;
+    40KB</summary>
+    <title>SEC-generated letter</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="CORRESP" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-10-02T09:02:10.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000122</accession-number>
+      <filing-date>2020-10-02</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000122/0001326380-20-000122-index.htm</filing-href>
+      <form-name>Correspondence</form-name>
+      <size>87341</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000122</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000122/0001326380-20-000122-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-10-02 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000122 &lt;strong&gt;Size:&lt;/strong&gt;
+    88KB</summary>
+    <title>Correspondence</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="UPLOAD" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-09-23T08:33:05.000Z</acceptance-date-time>
+      <accession-number>0000000000-20-008922</accession-number>
+      <filing-date>2020-09-23</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000000000020008922/0000000000-20-008922-index.htm</filing-href>
+      <form-name>SEC-generated letter</form-name>
+      <size>44738</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000000000-20-008922</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000000000020008922/0000000000-20-008922-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-09-23 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000000000-20-008922 &lt;strong&gt;Size:&lt;/strong&gt;
+    45KB</summary>
+    <title>SEC-generated letter</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="SC 13D/A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-09-21T16:07:27.000Z</acceptance-date-time>
+      <accession-number>0001013594-20-000699</accession-number>
+      <act>34</act>
+      <file-number>005-81055</file-number>
+      <filing-date>2020-09-21</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000101359420000699/0001013594-20-000699-index.htm</filing-href>
+      <film-number>201186413</film-number>
+      <form-name>General statement of acquisition of beneficial
+      ownership - amended</form-name>
+      <size>68253</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001013594-20-000699</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000101359420000699/0001013594-20-000699-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-09-21 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001013594-20-000699 &lt;strong&gt;Size:&lt;/strong&gt;
+    69KB</summary>
+    <title>General statement of acquisition of beneficial ownership
+    - amended</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="10-Q" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-09-09T16:31:42.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000119</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-09-09</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000119/0001326380-20-000119-index.htm</filing-href>
+      <film-number>201166838</film-number>
+      <form-name>Quarterly report [Sections 13 or
+      15(d)]</form-name>
+      <report-date>2020-08-01</report-date>
+      <size>7273954</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001326380-20-000119&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000119</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000119/0001326380-20-000119-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-09-09 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000119 &lt;strong&gt;Size:&lt;/strong&gt;
+    8MB</summary>
+    <title>Quarterly report [Sections 13 or 15(d)]</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="8-K" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-09-09T16:14:18.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000116</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-09-09</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000116/0001326380-20-000116-index.htm</filing-href>
+      <film-number>201166670</film-number>
+      <form-name>Current report</form-name>
+      <items-desc>items 2.02,9.01</items-desc>
+      <report-date>2020-09-09</report-date>
+      <size>1035222</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001326380-20-000116&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000116</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000116/0001326380-20-000116-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-09-09 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000116 &lt;strong&gt;Size:&lt;/strong&gt;
+    2MB</summary>
+    <title>Current report</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="SC 13D/A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-09-08T16:44:08.000Z</acceptance-date-time>
+      <accession-number>0000921895-20-002369</accession-number>
+      <act>34</act>
+      <file-number>005-81055</file-number>
+      <filing-date>2020-09-08</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000092189520002369/0000921895-20-002369-index.htm</filing-href>
+      <film-number>201164581</film-number>
+      <form-name>General statement of acquisition of beneficial
+      ownership - amended</form-name>
+      <size>135890</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000921895-20-002369</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000092189520002369/0000921895-20-002369-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-09-08 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000921895-20-002369 &lt;strong&gt;Size:&lt;/strong&gt;
+    136KB</summary>
+    <title>General statement of acquisition of beneficial ownership
+    - amended</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="8-K" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-09-02T16:38:04.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000107</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-09-02</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000107/0001326380-20-000107-index.htm</filing-href>
+      <film-number>201157330</film-number>
+      <form-name>Current report</form-name>
+      <items-desc>items 1.01,2.03,9.01</items-desc>
+      <report-date>2020-08-28</report-date>
+      <size>518263</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001326380-20-000107&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000107</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000107/0001326380-20-000107-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-09-02 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000107 &lt;strong&gt;Size:&lt;/strong&gt;
+    519KB</summary>
+    <title>Current report</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="SC 13D/A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-08-31T17:18:58.000Z</acceptance-date-time>
+      <accession-number>0001013594-20-000673</accession-number>
+      <act>34</act>
+      <file-number>005-81055</file-number>
+      <filing-date>2020-08-31</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000101359420000673/0001013594-20-000673-index.htm</filing-href>
+      <film-number>201152564</film-number>
+      <form-name>General statement of acquisition of beneficial
+      ownership - amended</form-name>
+      <size>129988</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001013594-20-000673</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000101359420000673/0001013594-20-000673-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-08-31 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001013594-20-000673 &lt;strong&gt;Size:&lt;/strong&gt;
+    130KB</summary>
+    <title>General statement of acquisition of beneficial ownership
+    - amended</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="SC 13D" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-08-28T16:50:30.000Z</acceptance-date-time>
+      <accession-number>0001013594-20-000670</accession-number>
+      <act>34</act>
+      <file-number>005-81055</file-number>
+      <filing-date>2020-08-28</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000101359420000670/0001013594-20-000670-index.htm</filing-href>
+      <film-number>201148476</film-number>
+      <form-name>General statement of acquisition of beneficial
+      ownership</form-name>
+      <size>138087</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001013594-20-000670</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000101359420000670/0001013594-20-000670-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-08-28 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001013594-20-000670 &lt;strong&gt;Size:&lt;/strong&gt;
+    139KB</summary>
+    <title>General statement of acquisition of beneficial
+    ownership</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="SC 13G/A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-07-10T14:41:28.000Z</acceptance-date-time>
+      <accession-number>0001104659-20-082654</accession-number>
+      <act>34</act>
+      <file-number>005-81055</file-number>
+      <filing-date>2020-07-10</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000110465920082654/0001104659-20-082654-index.htm</filing-href>
+      <film-number>201022874</film-number>
+      <form-name>Statement of acquisition of beneficial ownership
+      by individuals - amended</form-name>
+      <size>13878</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001104659-20-082654</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000110465920082654/0001104659-20-082654-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-07-10 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001104659-20-082654 &lt;strong&gt;Size:&lt;/strong&gt;
+    14KB</summary>
+    <title>Statement of acquisition of beneficial ownership by
+    individuals - amended</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="3" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-07-09T16:07:38.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000094</accession-number>
+      <filing-date>2020-07-09</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000094/0001326380-20-000094-index.htm</filing-href>
+      <form-name>Initial statement of beneficial ownership of
+      securities</form-name>
+      <report-date>2020-06-29</report-date>
+      <size>6615</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000094</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000094/0001326380-20-000094-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-07-09 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000094 &lt;strong&gt;Size:&lt;/strong&gt;
+    7KB</summary>
+    <title>Initial statement of beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="8-K" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-07-06T17:28:35.000Z</acceptance-date-time>
+      <accession-number>0001193125-20-187950</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-07-06</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312520187950/0001193125-20-187950-index.htm</filing-href>
+      <film-number>201014401</film-number>
+      <form-name>Current report</form-name>
+      <items-desc>items 1.01,2.03,8.01,9.01</items-desc>
+      <report-date>2020-07-02</report-date>
+      <size>1711070</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001193125-20-187950&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-20-187950</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312520187950/0001193125-20-187950-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-07-06 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-20-187950 &lt;strong&gt;Size:&lt;/strong&gt;
+    2MB</summary>
+    <title>Current report</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-07-06T16:10:43.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000092</accession-number>
+      <filing-date>2020-07-06</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000092/0001326380-20-000092-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2020-07-01</report-date>
+      <size>4776</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000092</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000092/0001326380-20-000092-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-07-06 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000092 &lt;strong&gt;Size:&lt;/strong&gt;
+    5KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-07-06T16:09:38.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000091</accession-number>
+      <filing-date>2020-07-06</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000091/0001326380-20-000091-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2020-07-01</report-date>
+      <size>4724</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000091</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000091/0001326380-20-000091-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-07-06 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000091 &lt;strong&gt;Size:&lt;/strong&gt;
+    5KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="8-K" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-07-02T16:06:13.000Z</acceptance-date-time>
+      <accession-number>0001193125-20-186820</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-07-02</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312520186820/0001193125-20-186820-index.htm</filing-href>
+      <film-number>201009286</film-number>
+      <form-name>Current report</form-name>
+      <items-desc>items 5.02,9.01</items-desc>
+      <report-date>2020-06-29</report-date>
+      <size>177861</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001193125-20-186820&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-20-186820</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312520186820/0001193125-20-186820-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-07-02 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-20-186820 &lt;strong&gt;Size:&lt;/strong&gt;
+    178KB</summary>
+    <title>Current report</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-18T16:31:45.000Z</acceptance-date-time>
+      <accession-number>0001192482-20-000530</accession-number>
+      <filing-date>2020-06-18</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119248220000530/0001192482-20-000530-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2020-06-17</report-date>
+      <size>4499</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001192482-20-000530</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119248220000530/0001192482-20-000530-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-18 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001192482-20-000530 &lt;strong&gt;Size:&lt;/strong&gt;
+    5KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-18T16:29:17.000Z</acceptance-date-time>
+      <accession-number>0001192482-20-000528</accession-number>
+      <filing-date>2020-06-18</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119248220000528/0001192482-20-000528-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2020-06-17</report-date>
+      <size>6721</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001192482-20-000528</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119248220000528/0001192482-20-000528-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-18 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001192482-20-000528 &lt;strong&gt;Size:&lt;/strong&gt;
+    7KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="3" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-18T16:27:30.000Z</acceptance-date-time>
+      <accession-number>0001192482-20-000526</accession-number>
+      <filing-date>2020-06-18</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119248220000526/0001192482-20-000526-index.htm</filing-href>
+      <form-name>Initial statement of beneficial ownership of
+      securities</form-name>
+      <report-date>2020-06-12</report-date>
+      <size>7129</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001192482-20-000526</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119248220000526/0001192482-20-000526-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-18 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001192482-20-000526 &lt;strong&gt;Size:&lt;/strong&gt;
+    8KB</summary>
+    <title>Initial statement of beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="3" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-18T16:25:47.000Z</acceptance-date-time>
+      <accession-number>0001192482-20-000524</accession-number>
+      <filing-date>2020-06-18</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119248220000524/0001192482-20-000524-index.htm</filing-href>
+      <form-name>Initial statement of beneficial ownership of
+      securities</form-name>
+      <report-date>2020-06-12</report-date>
+      <size>9377</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001192482-20-000524</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119248220000524/0001192482-20-000524-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-18 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001192482-20-000524 &lt;strong&gt;Size:&lt;/strong&gt;
+    10KB</summary>
+    <title>Initial statement of beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="8-K" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-18T16:12:54.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000087</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-06-18</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000087/0001326380-20-000087-index.htm</filing-href>
+      <film-number>20972683</film-number>
+      <form-name>Current report</form-name>
+      <items-desc>items 5.07</items-desc>
+      <report-date>2020-06-12</report-date>
+      <size>277816</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001326380-20-000087&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000087</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000087/0001326380-20-000087-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-18 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000087 &lt;strong&gt;Size:&lt;/strong&gt;
+    278KB</summary>
+    <title>Current report</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="8-K" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-18T08:31:13.000Z</acceptance-date-time>
+      <accession-number>0001193125-20-171922</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-06-18</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312520171922/0001193125-20-171922-index.htm</filing-href>
+      <film-number>20971295</film-number>
+      <form-name>Current report</form-name>
+      <items-desc>items 8.01,9.01</items-desc>
+      <report-date>2020-06-18</report-date>
+      <size>176407</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001193125-20-171922&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-20-171922</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312520171922/0001193125-20-171922-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-18 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-20-171922 &lt;strong&gt;Size:&lt;/strong&gt;
+    177KB</summary>
+    <title>Current report</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-16T16:28:27.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000084</accession-number>
+      <filing-date>2020-06-16</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000084/0001326380-20-000084-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2020-06-14</report-date>
+      <size>4739</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000084</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000084/0001326380-20-000084-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-16 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000084 &lt;strong&gt;Size:&lt;/strong&gt;
+    5KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-16T16:25:21.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000083</accession-number>
+      <filing-date>2020-06-16</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000083/0001326380-20-000083-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2020-06-12</report-date>
+      <size>6286</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000083</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000083/0001326380-20-000083-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-16 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000083 &lt;strong&gt;Size:&lt;/strong&gt;
+    7KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-16T16:23:42.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000082</accession-number>
+      <filing-date>2020-06-16</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000082/0001326380-20-000082-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2020-06-12</report-date>
+      <size>6262</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000082</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000082/0001326380-20-000082-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-16 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000082 &lt;strong&gt;Size:&lt;/strong&gt;
+    7KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-16T16:21:10.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000081</accession-number>
+      <filing-date>2020-06-16</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000081/0001326380-20-000081-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2020-06-12</report-date>
+      <size>6299</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000081</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000081/0001326380-20-000081-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-16 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000081 &lt;strong&gt;Size:&lt;/strong&gt;
+    7KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-16T16:17:16.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000080</accession-number>
+      <filing-date>2020-06-16</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000080/0001326380-20-000080-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2020-06-12</report-date>
+      <size>8351</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000080</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000080/0001326380-20-000080-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-16 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000080 &lt;strong&gt;Size:&lt;/strong&gt;
+    9KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-16T16:13:40.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000079</accession-number>
+      <filing-date>2020-06-16</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000079/0001326380-20-000079-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2020-06-12</report-date>
+      <size>8192</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000079</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000079/0001326380-20-000079-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-16 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000079 &lt;strong&gt;Size:&lt;/strong&gt;
+    9KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-16T16:10:18.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000078</accession-number>
+      <filing-date>2020-06-16</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000078/0001326380-20-000078-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2020-06-12</report-date>
+      <size>8208</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000078</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000078/0001326380-20-000078-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-16 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000078 &lt;strong&gt;Size:&lt;/strong&gt;
+    9KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-16T16:06:01.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000077</accession-number>
+      <filing-date>2020-06-16</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000077/0001326380-20-000077-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2020-06-12</report-date>
+      <size>8164</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000077</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000077/0001326380-20-000077-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-16 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000077 &lt;strong&gt;Size:&lt;/strong&gt;
+    9KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="SC 13D/A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-12T09:26:09.000Z</acceptance-date-time>
+      <accession-number>0000921895-20-001762</accession-number>
+      <act>34</act>
+      <file-number>005-81055</file-number>
+      <filing-date>2020-06-12</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000092189520001762/0000921895-20-001762-index.htm</filing-href>
+      <film-number>20959084</film-number>
+      <form-name>General statement of acquisition of beneficial
+      ownership - amended</form-name>
+      <size>294741</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000921895-20-001762</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000092189520001762/0000921895-20-001762-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-12 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000921895-20-001762 &lt;strong&gt;Size:&lt;/strong&gt;
+    295KB</summary>
+    <title>General statement of acquisition of beneficial ownership
+    - amended</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-11T16:11:11.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000068</accession-number>
+      <filing-date>2020-06-11</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000068/0001326380-20-000068-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2020-06-09</report-date>
+      <size>6238</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000068</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000068/0001326380-20-000068-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-11 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000068 &lt;strong&gt;Size:&lt;/strong&gt;
+    7KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-11T16:09:43.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000067</accession-number>
+      <filing-date>2020-06-11</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000067/0001326380-20-000067-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2020-06-09</report-date>
+      <size>6275</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000067</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000067/0001326380-20-000067-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-11 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000067 &lt;strong&gt;Size:&lt;/strong&gt;
+    7KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-11T16:08:16.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000066</accession-number>
+      <filing-date>2020-06-11</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000066/0001326380-20-000066-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2020-06-09</report-date>
+      <size>6223</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000066</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000066/0001326380-20-000066-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-11 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000066 &lt;strong&gt;Size:&lt;/strong&gt;
+    7KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-11T16:07:10.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000065</accession-number>
+      <filing-date>2020-06-11</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000065/0001326380-20-000065-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2020-06-09</report-date>
+      <size>6278</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000065</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000065/0001326380-20-000065-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-11 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000065 &lt;strong&gt;Size:&lt;/strong&gt;
+    7KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="10-Q" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-09T16:17:16.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000060</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-06-09</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000060/0001326380-20-000060-index.htm</filing-href>
+      <film-number>20952011</film-number>
+      <form-name>Quarterly report [Sections 13 or
+      15(d)]</form-name>
+      <report-date>2020-05-02</report-date>
+      <size>5588789</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001326380-20-000060&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000060</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000060/0001326380-20-000060-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-09 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000060 &lt;strong&gt;Size:&lt;/strong&gt;
+    6MB</summary>
+    <title>Quarterly report [Sections 13 or 15(d)]</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="8-K" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-09T16:10:49.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000059</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-06-09</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000059/0001326380-20-000059-index.htm</filing-href>
+      <film-number>20951956</film-number>
+      <form-name>Current report</form-name>
+      <items-desc>items 2.02,9.01</items-desc>
+      <report-date>2020-06-09</report-date>
+      <size>726730</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001326380-20-000059&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000059</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000059/0001326380-20-000059-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-09 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000059 &lt;strong&gt;Size:&lt;/strong&gt;
+    727KB</summary>
+    <title>Current report</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="DEFA14A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-05T06:17:38.000Z</acceptance-date-time>
+      <accession-number>0001193125-20-161300</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-06-05</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312520161300/0001193125-20-161300-index.htm</filing-href>
+      <film-number>20944624</film-number>
+      <form-name>Additional definitive proxy soliciting materials
+      and Rule 14(a)(12) material</form-name>
+      <size>300861</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-20-161300</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312520161300/0001193125-20-161300-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-05 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-20-161300 &lt;strong&gt;Size:&lt;/strong&gt;
+    301KB</summary>
+    <title>Additional definitive proxy soliciting materials and
+    Rule 14(a)(12) material</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="8-K" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-04T19:50:10.000Z</acceptance-date-time>
+      <accession-number>0001193125-20-160944</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-06-05</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312520160944/0001193125-20-160944-index.htm</filing-href>
+      <film-number>20944168</film-number>
+      <form-name>Current report</form-name>
+      <items-desc>items 2.02,7.01,8.01,9.01</items-desc>
+      <report-date>2020-06-04</report-date>
+      <size>427237</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001193125-20-160944&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-20-160944</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312520160944/0001193125-20-160944-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-05 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-20-160944 &lt;strong&gt;Size:&lt;/strong&gt;
+    428KB</summary>
+    <title>Current report</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="8-K" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-04T16:19:07.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000051</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-06-04</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000051/0001326380-20-000051-index.htm</filing-href>
+      <film-number>20943176</film-number>
+      <form-name>Current report</form-name>
+      <items-desc>items 5.02</items-desc>
+      <report-date>2020-06-01</report-date>
+      <size>286079</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001326380-20-000051&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000051</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000051/0001326380-20-000051-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-04 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000051 &lt;strong&gt;Size:&lt;/strong&gt;
+    287KB</summary>
+    <title>Current report</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="DFAN14A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-03T16:30:30.000Z</acceptance-date-time>
+      <accession-number>0000921895-20-001692</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-06-03</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000092189520001692/0000921895-20-001692-index.htm</filing-href>
+      <film-number>20940413</film-number>
+      <form-name>Additional definitive proxy soliciting materials
+      filed by non-management and Rule 14(a)(12)
+      material</form-name>
+      <size>30480</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000921895-20-001692</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000092189520001692/0000921895-20-001692-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-03 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000921895-20-001692 &lt;strong&gt;Size:&lt;/strong&gt;
+    31KB</summary>
+    <title>Additional definitive proxy soliciting materials filed
+    by non-management and Rule 14(a)(12) material</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="DFAN14A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-02T17:13:28.000Z</acceptance-date-time>
+      <accession-number>0000921895-20-001680</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-06-02</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000092189520001680/0000921895-20-001680-index.htm</filing-href>
+      <film-number>20938017</film-number>
+      <form-name>Additional definitive proxy soliciting materials
+      filed by non-management and Rule 14(a)(12)
+      material</form-name>
+      <size>51897</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000921895-20-001680</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000092189520001680/0000921895-20-001680-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-02 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000921895-20-001680 &lt;strong&gt;Size:&lt;/strong&gt;
+    52KB</summary>
+    <title>Additional definitive proxy soliciting materials filed
+    by non-management and Rule 14(a)(12) material</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="DEFA14A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-02T16:11:59.000Z</acceptance-date-time>
+      <accession-number>0001193125-20-158472</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-06-02</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312520158472/0001193125-20-158472-index.htm</filing-href>
+      <film-number>20937083</film-number>
+      <form-name>Additional definitive proxy soliciting materials
+      and Rule 14(a)(12) material</form-name>
+      <size>70700</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-20-158472</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312520158472/0001193125-20-158472-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-02 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-20-158472 &lt;strong&gt;Size:&lt;/strong&gt;
+    71KB</summary>
+    <title>Additional definitive proxy soliciting materials and
+    Rule 14(a)(12) material</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="DFAN14A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-02T12:34:34.000Z</acceptance-date-time>
+      <accession-number>0000921895-20-001672</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-06-02</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000092189520001672/0000921895-20-001672-index.htm</filing-href>
+      <film-number>20936216</film-number>
+      <form-name>Additional definitive proxy soliciting materials
+      filed by non-management and Rule 14(a)(12)
+      material</form-name>
+      <size>34992</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000921895-20-001672</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000092189520001672/0000921895-20-001672-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-02 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000921895-20-001672 &lt;strong&gt;Size:&lt;/strong&gt;
+    35KB</summary>
+    <title>Additional definitive proxy soliciting materials filed
+    by non-management and Rule 14(a)(12) material</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="DFAN14A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-01T16:32:33.000Z</acceptance-date-time>
+      <accession-number>0000921895-20-001660</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-06-01</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000092189520001660/0000921895-20-001660-index.htm</filing-href>
+      <film-number>20933784</film-number>
+      <form-name>Additional definitive proxy soliciting materials
+      filed by non-management and Rule 14(a)(12)
+      material</form-name>
+      <size>27919</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000921895-20-001660</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000092189520001660/0000921895-20-001660-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-01 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000921895-20-001660 &lt;strong&gt;Size:&lt;/strong&gt;
+    28KB</summary>
+    <title>Additional definitive proxy soliciting materials filed
+    by non-management and Rule 14(a)(12) material</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="DEFA14A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-01T16:31:56.000Z</acceptance-date-time>
+      <accession-number>0001193125-20-157306</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-06-01</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312520157306/0001193125-20-157306-index.htm</filing-href>
+      <film-number>20933775</film-number>
+      <form-name>Additional definitive proxy soliciting materials
+      and Rule 14(a)(12) material</form-name>
+      <size>312023</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-20-157306</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312520157306/0001193125-20-157306-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-01 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-20-157306 &lt;strong&gt;Size:&lt;/strong&gt;
+    313KB</summary>
+    <title>Additional definitive proxy soliciting materials and
+    Rule 14(a)(12) material</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="SD" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-06-01T06:16:07.000Z</acceptance-date-time>
+      <accession-number>0001193125-20-156364</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-06-01</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312520156364/0001193125-20-156364-index.htm</filing-href>
+      <film-number>20930836</film-number>
+      <form-name>Form - SD</form-name>
+      <size>42766</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-20-156364</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312520156364/0001193125-20-156364-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-06-01 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-20-156364 &lt;strong&gt;Size:&lt;/strong&gt;
+    43KB</summary>
+    <title>Form - SD</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="DFAN14A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-05-28T13:03:50.000Z</acceptance-date-time>
+      <accession-number>0000921895-20-001620</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-05-28</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000092189520001620/0000921895-20-001620-index.htm</filing-href>
+      <film-number>20919422</film-number>
+      <form-name>Additional definitive proxy soliciting materials
+      filed by non-management and Rule 14(a)(12)
+      material</form-name>
+      <size>82642</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000921895-20-001620</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000092189520001620/0000921895-20-001620-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-05-28 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000921895-20-001620 &lt;strong&gt;Size:&lt;/strong&gt;
+    83KB</summary>
+    <title>Additional definitive proxy soliciting materials filed
+    by non-management and Rule 14(a)(12) material</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="DFAN14A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-05-27T17:04:26.000Z</acceptance-date-time>
+      <accession-number>0000921895-20-001614</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-05-27</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000092189520001614/0000921895-20-001614-index.htm</filing-href>
+      <film-number>20916133</film-number>
+      <form-name>Additional definitive proxy soliciting materials
+      filed by non-management and Rule 14(a)(12)
+      material</form-name>
+      <size>188716</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000921895-20-001614</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000092189520001614/0000921895-20-001614-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-05-27 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000921895-20-001614 &lt;strong&gt;Size:&lt;/strong&gt;
+    189KB</summary>
+    <title>Additional definitive proxy soliciting materials filed
+    by non-management and Rule 14(a)(12) material</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="DFAN14A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-05-26T16:53:19.000Z</acceptance-date-time>
+      <accession-number>0000921895-20-001599</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-05-26</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000092189520001599/0000921895-20-001599-index.htm</filing-href>
+      <film-number>20911459</film-number>
+      <form-name>Additional definitive proxy soliciting materials
+      filed by non-management and Rule 14(a)(12)
+      material</form-name>
+      <size>4138279</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000921895-20-001599</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000092189520001599/0000921895-20-001599-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-05-26 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000921895-20-001599 &lt;strong&gt;Size:&lt;/strong&gt;
+    5MB</summary>
+    <title>Additional definitive proxy soliciting materials filed
+    by non-management and Rule 14(a)(12) material</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="DEFA14A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-05-26T16:07:32.000Z</acceptance-date-time>
+      <accession-number>0001193125-20-151519</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-05-26</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312520151519/0001193125-20-151519-index.htm</filing-href>
+      <film-number>20910540</film-number>
+      <form-name>Additional definitive proxy soliciting materials
+      and Rule 14(a)(12) material</form-name>
+      <size>124344</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-20-151519</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312520151519/0001193125-20-151519-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-05-26 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-20-151519 &lt;strong&gt;Size:&lt;/strong&gt;
+    125KB</summary>
+    <title>Additional definitive proxy soliciting materials and
+    Rule 14(a)(12) material</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="DEFA14A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-05-26T07:01:02.000Z</acceptance-date-time>
+      <accession-number>0001193125-20-150812</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-05-26</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312520150812/0001193125-20-150812-index.htm</filing-href>
+      <film-number>20908078</film-number>
+      <form-name>Additional definitive proxy soliciting materials
+      and Rule 14(a)(12) material</form-name>
+      <size>155926</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-20-150812</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312520150812/0001193125-20-150812-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-05-26 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-20-150812 &lt;strong&gt;Size:&lt;/strong&gt;
+    156KB</summary>
+    <title>Additional definitive proxy soliciting materials and
+    Rule 14(a)(12) material</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="DEFA14A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-05-21T16:53:17.000Z</acceptance-date-time>
+      <accession-number>0001193125-20-148780</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-05-21</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312520148780/0001193125-20-148780-index.htm</filing-href>
+      <film-number>20902592</film-number>
+      <form-name>Additional definitive proxy soliciting materials
+      and Rule 14(a)(12) material</form-name>
+      <size>13082792</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-20-148780</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312520148780/0001193125-20-148780-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-05-21 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-20-148780 &lt;strong&gt;Size:&lt;/strong&gt;
+    14MB</summary>
+    <title>Additional definitive proxy soliciting materials and
+    Rule 14(a)(12) material</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="DFAN14A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-05-21T16:30:52.000Z</acceptance-date-time>
+      <accession-number>0000921895-20-001562</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-05-21</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000092189520001562/0000921895-20-001562-index.htm</filing-href>
+      <film-number>20902270</film-number>
+      <form-name>Additional definitive proxy soliciting materials
+      filed by non-management and Rule 14(a)(12)
+      material</form-name>
+      <size>207032</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000921895-20-001562</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000092189520001562/0000921895-20-001562-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-05-21 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000921895-20-001562 &lt;strong&gt;Size:&lt;/strong&gt;
+    208KB</summary>
+    <title>Additional definitive proxy soliciting materials filed
+    by non-management and Rule 14(a)(12) material</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="DFAN14A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-05-20T16:01:36.000Z</acceptance-date-time>
+      <accession-number>0000921895-20-001538</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-05-20</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000092189520001538/0000921895-20-001538-index.htm</filing-href>
+      <film-number>20898055</film-number>
+      <form-name>Additional definitive proxy soliciting materials
+      filed by non-management and Rule 14(a)(12)
+      material</form-name>
+      <size>320972</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000921895-20-001538</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000092189520001538/0000921895-20-001538-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-05-20 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000921895-20-001538 &lt;strong&gt;Size:&lt;/strong&gt;
+    321KB</summary>
+    <title>Additional definitive proxy soliciting materials filed
+    by non-management and Rule 14(a)(12) material</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="DFAN14A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-05-19T17:20:26.000Z</acceptance-date-time>
+      <accession-number>0000921895-20-001510</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-05-19</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000092189520001510/0000921895-20-001510-index.htm</filing-href>
+      <film-number>20894751</film-number>
+      <form-name>Additional definitive proxy soliciting materials
+      filed by non-management and Rule 14(a)(12)
+      material</form-name>
+      <size>3612905</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000921895-20-001510</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000092189520001510/0000921895-20-001510-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-05-19 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000921895-20-001510 &lt;strong&gt;Size:&lt;/strong&gt;
+    4MB</summary>
+    <title>Additional definitive proxy soliciting materials filed
+    by non-management and Rule 14(a)(12) material</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="8-K" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-05-19T06:18:16.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000047</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-05-19</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000047/0001326380-20-000047-index.htm</filing-href>
+      <film-number>20891548</film-number>
+      <form-name>Current report</form-name>
+      <items-desc>items 5.02</items-desc>
+      <report-date>2020-05-13</report-date>
+      <size>237240</size>
+      <xbrl_href>
+      https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1326380&amp;accession_number=0001326380-20-000047&amp;xbrl_type=v</xbrl_href>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000047</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000047/0001326380-20-000047-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-05-19 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000047 &lt;strong&gt;Size:&lt;/strong&gt;
+    238KB</summary>
+    <title>Current report</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="DEFA14A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-05-18T17:25:55.000Z</acceptance-date-time>
+      <accession-number>0001193125-20-145224</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-05-18</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312520145224/0001193125-20-145224-index.htm</filing-href>
+      <film-number>20890794</film-number>
+      <form-name>Additional definitive proxy soliciting materials
+      and Rule 14(a)(12) material</form-name>
+      <size>177943</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-20-145224</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312520145224/0001193125-20-145224-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-05-18 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-20-145224 &lt;strong&gt;Size:&lt;/strong&gt;
+    178KB</summary>
+    <title>Additional definitive proxy soliciting materials and
+    Rule 14(a)(12) material</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-05-12T16:17:15.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000044</accession-number>
+      <filing-date>2020-05-12</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000044/0001326380-20-000044-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2020-05-09</report-date>
+      <size>8338</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000044</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000044/0001326380-20-000044-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-05-12 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000044 &lt;strong&gt;Size:&lt;/strong&gt;
+    9KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="4" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-05-12T16:15:37.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000043</accession-number>
+      <filing-date>2020-05-12</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000043/0001326380-20-000043-index.htm</filing-href>
+      <form-name>Statement of changes in beneficial ownership of
+      securities</form-name>
+      <report-date>2020-05-09</report-date>
+      <size>4808</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000043</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000043/0001326380-20-000043-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-05-12 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000043 &lt;strong&gt;Size:&lt;/strong&gt;
+    5KB</summary>
+    <title>Statement of changes in beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="DEFA14A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-05-11T17:20:32.000Z</acceptance-date-time>
+      <accession-number>0001193125-20-139274</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-05-11</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312520139274/0001193125-20-139274-index.htm</filing-href>
+      <film-number>20866078</film-number>
+      <form-name>Additional definitive proxy soliciting materials
+      and Rule 14(a)(12) material</form-name>
+      <size>216805</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-20-139274</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312520139274/0001193125-20-139274-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-05-11 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-20-139274 &lt;strong&gt;Size:&lt;/strong&gt;
+    217KB</summary>
+    <title>Additional definitive proxy soliciting materials and
+    Rule 14(a)(12) material</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="SC 13D/A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-05-06T16:51:52.000Z</acceptance-date-time>
+      <accession-number>0000905148-20-000563</accession-number>
+      <act>34</act>
+      <file-number>005-81055</file-number>
+      <filing-date>2020-05-06</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000090514820000563/0000905148-20-000563-index.htm</filing-href>
+      <film-number>20853330</film-number>
+      <form-name>General statement of acquisition of beneficial
+      ownership - amended</form-name>
+      <size>155888</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000905148-20-000563</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000090514820000563/0000905148-20-000563-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-05-06 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000905148-20-000563 &lt;strong&gt;Size:&lt;/strong&gt;
+    156KB</summary>
+    <title>General statement of acquisition of beneficial ownership
+    - amended</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="DFAN14A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-04-28T09:41:39.000Z</acceptance-date-time>
+      <accession-number>0000921895-20-001207</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-04-28</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000092189520001207/0000921895-20-001207-index.htm</filing-href>
+      <film-number>20822670</film-number>
+      <form-name>Additional definitive proxy soliciting materials
+      filed by non-management and Rule 14(a)(12)
+      material</form-name>
+      <size>128609</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000921895-20-001207</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000092189520001207/0000921895-20-001207-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-04-28 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000921895-20-001207 &lt;strong&gt;Size:&lt;/strong&gt;
+    129KB</summary>
+    <title>Additional definitive proxy soliciting materials filed
+    by non-management and Rule 14(a)(12) material</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="DEFA14A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-04-28T08:43:05.000Z</acceptance-date-time>
+      <accession-number>0001193125-20-122095</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-04-28</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312520122095/0001193125-20-122095-index.htm</filing-href>
+      <film-number>20822483</film-number>
+      <form-name>Additional definitive proxy soliciting materials
+      and Rule 14(a)(12) material</form-name>
+      <size>186166</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-20-122095</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312520122095/0001193125-20-122095-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-04-28 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-20-122095 &lt;strong&gt;Size:&lt;/strong&gt;
+    187KB</summary>
+    <title>Additional definitive proxy soliciting materials and
+    Rule 14(a)(12) material</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="SC 13D/A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-04-27T17:20:47.000Z</acceptance-date-time>
+      <accession-number>0000921895-20-001202</accession-number>
+      <act>34</act>
+      <file-number>005-81055</file-number>
+      <filing-date>2020-04-27</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000092189520001202/0000921895-20-001202-index.htm</filing-href>
+      <film-number>20821241</film-number>
+      <form-name>General statement of acquisition of beneficial
+      ownership - amended</form-name>
+      <size>7278369</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000921895-20-001202</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000092189520001202/0000921895-20-001202-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-04-27 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000921895-20-001202 &lt;strong&gt;Size:&lt;/strong&gt;
+    8MB</summary>
+    <title>General statement of acquisition of beneficial ownership
+    - amended</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="3" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-04-27T16:29:46.000Z</acceptance-date-time>
+      <accession-number>0001326380-20-000039</accession-number>
+      <filing-date>2020-04-27</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000132638020000039/0001326380-20-000039-index.htm</filing-href>
+      <form-name>Initial statement of beneficial ownership of
+      securities</form-name>
+      <report-date>2020-04-20</report-date>
+      <size>6603</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001326380-20-000039</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000132638020000039/0001326380-20-000039-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-04-27 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001326380-20-000039 &lt;strong&gt;Size:&lt;/strong&gt;
+    7KB</summary>
+    <title>Initial statement of beneficial ownership of
+    securities</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="DEFC14A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-04-27T16:18:09.000Z</acceptance-date-time>
+      <accession-number>0001193125-20-120938</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-04-27</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000119312520120938/0001193125-20-120938-index.htm</filing-href>
+      <film-number>20820201</film-number>
+      <form-name>Definitive proxy statement, contested
+      solicitations</form-name>
+      <size>10910939</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0001193125-20-120938</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000119312520120938/0001193125-20-120938-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-04-27 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0001193125-20-120938 &lt;strong&gt;Size:&lt;/strong&gt;
+    11MB</summary>
+    <title>Definitive proxy statement, contested
+    solicitations</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+  <entry>
+    <category label="form type" scheme="https://www.sec.gov/"
+    term="DFAN14A" />
+    <content-type type="text/xml">
+      <acceptance-date-time>
+      2020-04-27T14:42:49.000Z</acceptance-date-time>
+      <accession-number>0000921895-20-001193</accession-number>
+      <act>34</act>
+      <file-number>001-32637</file-number>
+      <filing-date>2020-04-27</filing-date>
+      <filing-href>
+      https://www.sec.gov/Archives/edgar/data/1326380/000092189520001193/0000921895-20-001193-index.htm</filing-href>
+      <film-number>20819382</film-number>
+      <form-name>Additional definitive proxy soliciting materials
+      filed by non-management and Rule 14(a)(12)
+      material</form-name>
+      <size>5143554</size>
+    </content-type>
+    <id>
+    urn:tag:sec.gov,2021:accession-number=0000921895-20-001193</id>
+    <link href="https://www.sec.gov/Archives/edgar/data/1326380/000092189520001193/0000921895-20-001193-index.htm"
+    rel="alternate" type="text/html" />
+    <summary type="html">&lt;strong&gt;Filed:&lt;/strong&gt;
+    2020-04-27 &lt;strong&gt;AccNo:&lt;/strong&gt;
+    0000921895-20-001193 &lt;strong&gt;Size:&lt;/strong&gt;
+    6MB</summary>
+    <title>Additional definitive proxy soliciting materials filed
+    by non-management and Rule 14(a)(12) material</title>
+    <updated>2021-04-24T18:47:05.237Z</updated>
+  </entry>
+</feed>

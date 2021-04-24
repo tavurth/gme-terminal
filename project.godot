@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="GME Ownership"
-run/main_scene="res://Splash.tscn"
+run/main_scene="res://Main.tscn"
 run/low_processor_mode=true
 run/low_processor_mode_sleep_usec=40000
 boot_splash/image="res://resource/splash.png"
@@ -30,6 +30,7 @@ config/windows_native_icon="res://icon.ico"
 Errors="*res://addons/cs-utils/Singletons/Errors.gd"
 Utils="*res://addons/cs-utils/Utils.gd"
 Cache="*res://addons/cs-cache/Cache.gd"
+Globals="*res://Globals.gd"
 
 [debug]
 

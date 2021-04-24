@@ -2,11 +2,26 @@
 
 [ext_resource path="res://addons/cs-ftds/pixel.png" type="Texture" id=1]
 
-[node name="Ftd" type="TextureProgress"]
+[node name="Ftd" type="VBoxContainer"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-rounded = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Bar" type="TextureProgress" parent="."]
+margin_right = 1024.0
+margin_bottom = 600.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
 texture_progress = ExtResource( 1 )
 fill_mode = 3
+nine_patch_stretch = true
+
+[node name="Label" type="Label" parent="."]
+visible = false
+margin_top = 586.0
+margin_right = 1024.0
+margin_bottom = 600.0

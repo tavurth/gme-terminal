@@ -131,21 +131,19 @@ func fetch_months(months: int):
 func render_list():
 	self.ftds.sort_custom(DataSort, "by_date")
 
-	$FTDChart.redraw(self.ftds)
+	$FtdChart.redraw(self.ftds)
 	$Loader.hide()
 
 func redraw():
 	self.fetch_months(2)
 
-func set_instrument(instrument: String):
-	self.instrument = instrument
+func set_instrument(instrument: Dictionary):
+	self.instrument = instrument.name
 	$Loader.show()
-	$FTDChart.reset()
 
 	if not self.get_parent().visible: return
 	self.fetch_months(2)
 
 func _ready():
 	$Loader.show()
-	$FTDChart.reset()
 	DataDir.change_dir(DIRECTORY)
