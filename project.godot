@@ -38,7 +38,7 @@ gdscript/warnings/unused_signal=false
 
 [editor_plugins]
 
-enabled=PoolStringArray( "cs-cache", "cs-ftds", "cs-institutions", "cs-utils" )
+enabled=PoolStringArray( "cs-cache", "cs-institutions", "cs-utils" )
 
 [input]
 

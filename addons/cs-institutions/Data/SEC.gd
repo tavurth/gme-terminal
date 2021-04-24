@@ -6,15 +6,19 @@ func _ready():
 	self.add_child(Filing)
 
 func beneficial(filing: Dictionary):
+	yield(get_tree(), "idle_frame")
+
 	match filing.title:
 		"Statement of acquisition of beneficial ownership by individuals":
-			yield(Filing.read_13D(filing.url), "completed")
+			return yield(Filing.read_13D(filing.url), "completed")
 		"Statement of acquisition of beneficial ownership by individuals - amended":
 			pass
 		"General statement of acquisition of beneficial ownership":
 			pass
 		"General statement of acquisition of beneficial ownership - amended":
 			pass
+
+	return null
 
 func fetch(instrument: Dictionary):
 	yield(get_tree(), 'idle_frame')
@@ -31,6 +35,8 @@ func fetch(instrument: Dictionary):
 
 	for filing in filings:
 		if "statement of acquisition of beneficial ownership" in filing.title.to_lower():
-			to_return.append(beneficial(filing))
+			var result = yield(beneficial(filing), "completed")
+			if result:
+				to_return.append(result)
 
-	return []
+	return to_return

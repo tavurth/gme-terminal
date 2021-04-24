@@ -152,7 +152,11 @@ func read_13D(link: String):
 	var shares = 0
 	shares += find_agregate(result)
 
-	prints(company_name, shares, date)
-	print('--------------------------------------------------')
-	print()
+	return {
+		"date": date,
+		"shares": shares,
+		"holder": company_name,
+		"shares_change": 0,
+		"shares_pct_change": 0,
+	}
 

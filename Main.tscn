@@ -1,11 +1,9 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://addons/cs-institutions/Institutions.gd" type="Script" id=1]
 [ext_resource path="res://Main.gd" type="Script" id=2]
 [ext_resource path="res://resource/default_theme.tres" type="Theme" id=3]
 [ext_resource path="res://Picker/Picker.tscn" type="PackedScene" id=4]
-[ext_resource path="res://resource/back-hover.svg" type="Texture" id=6]
-[ext_resource path="res://resource/back.svg" type="Texture" id=8]
 [ext_resource path="res://view_buttons.tres" type="ButtonGroup" id=9]
 [ext_resource path="res://addons/cs-ftds/Ftds.gd" type="Script" id=10]
 
@@ -45,27 +43,8 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="BackButton" type="TextureButton" parent="VBoxContainer/HeaderButtons/HBoxContainer"]
-margin_right = 40.0
-margin_bottom = 40.0
-rect_min_size = Vector2( 40, 0 )
-texture_normal = ExtResource( 8 )
-texture_pressed = ExtResource( 6 )
-texture_hover = ExtResource( 6 )
-expand = true
-__meta__ = {
-"_edit_use_anchors_": true
-}
-
-[node name="ButtonPadding" type="Control" parent="VBoxContainer/HeaderButtons/HBoxContainer"]
-margin_left = 44.0
-margin_right = 64.0
-margin_bottom = 40.0
-rect_min_size = Vector2( 20, 0 )
-
 [node name="INST" type="Button" parent="VBoxContainer/HeaderButtons/HBoxContainer"]
-margin_left = 68.0
-margin_right = 136.0
+margin_right = 68.0
 margin_bottom = 40.0
 toggle_mode = true
 pressed = true
@@ -73,15 +52,15 @@ group = ExtResource( 9 )
 text = "INST"
 
 [node name="FTD" type="Button" parent="VBoxContainer/HeaderButtons/HBoxContainer"]
-margin_left = 140.0
-margin_right = 196.0
+margin_left = 72.0
+margin_right = 128.0
 margin_bottom = 40.0
 toggle_mode = true
 group = ExtResource( 9 )
 text = "FTD"
 
 [node name="CenterPadding" type="Control" parent="VBoxContainer/HeaderButtons/HBoxContainer"]
-margin_left = 200.0
+margin_left = 132.0
 margin_right = 924.0
 margin_bottom = 40.0
 size_flags_horizontal = 3
@@ -119,7 +98,6 @@ margin_top = 20.0
 script = ExtResource( 10 )
 
 [node name="InstrumentPicker" parent="." instance=ExtResource( 4 )]
-[connection signal="pressed" from="VBoxContainer/HeaderButtons/HBoxContainer/BackButton" to="." method="_on_BackButton_pressed"]
 [connection signal="pressed" from="VBoxContainer/HeaderButtons/HBoxContainer/INST" to="." method="_on_INST_pressed"]
 [connection signal="pressed" from="VBoxContainer/HeaderButtons/HBoxContainer/FTD" to="." method="_on_FTD_pressed"]
 [connection signal="pressed" from="VBoxContainer/HeaderButtons/HBoxContainer/Instrument" to="InstrumentPicker" method="show"]
